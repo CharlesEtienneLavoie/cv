@@ -1,7 +1,3 @@
-  language = language
-)
-```
-
 ```{r Education_data}
 data <- rbind(
   tibble(

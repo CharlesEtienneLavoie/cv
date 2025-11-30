@@ -1,6 +1,3 @@
----
-output: html_document
----
 
 # Software I Developed
 
@@ -19,26 +16,34 @@ x <- easystats_downloads()
 x <- format_value(x, big_mark = ",")
 
 knitr::kable(x,
-    format = "latex",
-    booktabs = TRUE,
-    escape = FALSE,
-    align = "c"
-    ) %>%
-    kableExtra::kable_styling(
-      position = "center", font_size = 9, latex_options = "hold_position")
+       format = "latex",
+       booktabs = TRUE,
+       escape = FALSE,
+       align = "c"
+) %>%
+       kableExtra::kable_styling(
+              position = "center", font_size = 9, latex_options = "hold_position"
+       )
 
-filtered_x <- x %>% 
-  filter(Package %in% c("insight", "performance", "effectsize", "correlation", 
-                        "see", "modelbased", "report", "easystats")) %>% 
-  mutate(Total = as.numeric(gsub(",", "", Total)),
-         Monthly = as.numeric(gsub(",", "", Monthly))) %>% 
-  add_row(Package = "Total",
-          Total = sum(.$Total),#prettyNum(.$Total, big.mark = ","),
-          Monthly = sum(.$Monthly)) %>%  #prettyNum(.$Monthly, big.mark = ","))
-  mutate(Total = prettyNum(.$Total, big.mark = ","),
-         Monthly = prettyNum(.$Monthly, big.mark = ","))
+filtered_x <- x %>%
+       filter(Package %in% c(
+              "insight", "performance", "effectsize", "correlation",
+              "see", "modelbased", "report", "easystats"
+       )) %>%
+       mutate(
+              Total = as.numeric(gsub(",", "", Total)),
+              Monthly = as.numeric(gsub(",", "", Monthly))
+       ) %>%
+       add_row(
+              Package = "Total",
+              Total = sum(.$Total), # prettyNum(.$Total, big.mark = ","),
+              Monthly = sum(.$Monthly)
+       ) %>% # prettyNum(.$Monthly, big.mark = ","))
+       mutate(
+              Total = prettyNum(.$Total, big.mark = ","),
+              Monthly = prettyNum(.$Monthly, big.mark = ",")
+       )
 filtered_x
-
 ```
 
 ```{r software, include = FALSE}
@@ -53,76 +58,94 @@ software <- FALSE
 setwd("../img")
 
 # see
-rsvg_png("https://cranlogs.r-pkg.org/badges/see", 
-         "see_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/see", 
-         "see.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/see",
+       "see_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/see",
+       "see.png",
+       width = 250
+)
 
 # modelbased
-rsvg_png("https://cranlogs.r-pkg.org/badges/modelbased", 
-         "modelbased_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/modelbased", 
-         "modelbased.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/modelbased",
+       "modelbased_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/modelbased",
+       "modelbased.png",
+       width = 250
+)
 
 # performance
-rsvg_png("https://cranlogs.r-pkg.org/badges/correlation", 
-         "performance_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/performance", 
-         "performance.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/correlation",
+       "performance_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/performance",
+       "performance.png",
+       width = 250
+)
 
 # correlation
-rsvg_png("https://cranlogs.r-pkg.org/badges/correlation", 
-         "correlation_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/correlation", 
-         "correlation.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/correlation",
+       "correlation_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/correlation",
+       "correlation.png",
+       width = 250
+)
 
 # easystats
-rsvg_png("https://cranlogs.r-pkg.org/badges/easystats", 
-         "easystats_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/easystats", 
-         "easystats.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/easystats",
+       "easystats_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/easystats",
+       "easystats.png",
+       width = 250
+)
 
 # report
-rsvg_png("https://cranlogs.r-pkg.org/badges/report", 
-         "report_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/report", 
-         "report.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/report",
+       "report_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/report",
+       "report.png",
+       width = 250
+)
 
 # effectsize
-rsvg_png("https://cranlogs.r-pkg.org/badges/effectsize", 
-         "effectsize_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/effectsize", 
-         "effectsize.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/effectsize",
+       "effectsize_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/effectsize",
+       "effectsize.png",
+       width = 250
+)
 
 # lavaanExtra
-rsvg_png("https://cranlogs.r-pkg.org/badges/lavaanExtra", 
-         "lavaanExtra_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/lavaanExtra", 
-         "lavaanExtra.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/lavaanExtra",
+       "lavaanExtra_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/lavaanExtra",
+       "lavaanExtra.png",
+       width = 250
+)
 
 # rempsyc
-rsvg_png("https://cranlogs.r-pkg.org/badges/rempsyc", 
-         "rempsyc_monthly.png",
-         width = 250)
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc", 
-         "rempsyc.png",
-         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/rempsyc",
+       "rempsyc_monthly.png",
+       width = 250
+)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc",
+       "rempsyc.png",
+       width = 250
+)
 
 setwd("..")
 ```

@@ -1,3 +1,4 @@
+```{r Conference Poster Presentations, results = "asis"}
 nice_header(
   header = "Conference Poster Presentations",
   header_alt = "Communications affichées",
