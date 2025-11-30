@@ -56,7 +56,7 @@ author_bold <- "Lavoie, C. É."
 ########################
 
 # Specify your Google scholar profile
-scholar.profile <- NULL
+scholar.profile <- "6APjQ4AAAAAJ"
 
 # Specify your Google scholar short author name
 author.name <- "Charles-Étienne Lavoie"
