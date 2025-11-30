@@ -1,116 +1,38 @@
----
-output: html_document
----
-<!-- # Positions -->
-
-```{r Positions, eval=F}
-data <- rbind(
-  
-  tibble(
-    what = "Postdoctoral Fellow (Psychology - Social)",
-    when = "2025/01 - 2026-12",
-    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
-                url = "https://www.centerconflictcooperation.com/",
-                color = NULL),
-    where = "New York, New York, USA",
-    details = "Supervisor: Jay Van Bavel"))
-
- if (short) {
-   data <- data[1:7, ]
-   data$details <- NA
- }
- 
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
-```
-
-```{r Education, results = "asis"}
-nice_header(
-  header = "Education",
-  header_alt = "Éducation",
   language = language
 )
 ```
 
 ```{r Education_data}
 data <- rbind(
-  
   tibble(
-    what = "Postdoctoral Fellow (Psychology - Social)",
-    when = "2025/01 - 2026-12",
-    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
-                url = "https://www.centerconflictcooperation.com/",
-                color = NULL),
-    where = "New York, New York, USA",
-    details = "Supervisor: Jay Van Bavel"),
-  
-  tibble(
-    what = "PhD (Psychology - Social)", # - 120 credits
-    when = "2018/09 - 2024-12",
-    with = link("Université du Québec à Montréal, Social Resilience Lab",
-                url = "https://dandeneau.uqam.ca/en.html",
-                color = NULL),
+    what = "Psychology Doctorate, research profile (PhD)",
+    when = "2018/09 - ongoing",
+    with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c(# "GPA: 4.30/4.30",
-                "Advisory Committee: 
-                                    Stéphane Dandeneau (superviseur), 
-                                    Frédérick Philippe,
-                                    Simon Grégoire, 
-                                    Marina Doucerain, \\&
-                                    Bassam Khoury")), 
-
+    details = "Thesis: Passion and emotions: The mediating role of cognitive appraisals"
+  ),
   tibble(
-    what = "Master of Science (Psychiatry - Social \\& Transcultural)", # - 45 credits
-    when = "2016/09 - 2018/08",
-    with = link("McGill University, Cognitive Neuroscience Lab",
-                url = "https://raz-lab.org/",
-                color = NULL),
+    what = "Psychology Doctorate, clinical profile (PsyD)",
+    when = "2016/09 - 2020/05",
+    with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c(# "GPA: 4.00/4.00",
-                "Advisory Committee: 
-                                    Amir Raz (superviseur), 
-                                    Jennifer Bartz, 
-                                    Donald Taylor, \\&
-                                    Samuel Veissière")),
-  
+    details = "Schooling completed"
+  ),
   tibble(
-    what = "Bachelor of Arts (Psychology, 
-    Behavioral Science, \\&
-    Sociology)", # - 120 credits
-    when = "2013/01 - 2016/04",
-    with = link("McGill University, Cognitive Neuroscience Lab",
-                url = "https://raz-lab.org/",
-                color = NULL),
+    what = "Bachelor's degree in psychology (B.Sc.)",
+    when = "2013/09 - 2016/05",
+    with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c(# "GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
-                "Supervisor: Amir Raz")))
-  
-  # tibble(
-  #   what = "College Diploma (Social Sciences)",
-  #   when = "2010/08 - 2012/09",
-  #   with = "Cégep Édouard-Montpetit",
-  #   where = "Longueuil, Québec, Canada",
-  #   details = "Cote R: 30.754 (\\textit{Group Mean} = 22.95)"))
-
- if (short) {
-   data <- data[1:7, ]
-   data$details <- NA
- }
-
-edu_dictionary <- tribble(
-  ~English, ~French,
-  "Postdoctoral Fellow", "Postdoctorat",
-  "Master of Science", "Maitrise",
-  "Bachelor of Arts", "Baccalauréat",
-  "Social Resilience Lab", "Laboratoire de résilience sociale",
-  "Supervisor:", "Superviseur :",
-  "Advisory Committee:", "Comité de thèse :",
-  "ology", "ologie",
-  "Psychiatry", "Psychiatrie",
-  "Transcultural", "Transculturelle",
-  "Social", "Sociale",
-  "Behavioral Science", "Sciences comportementales"
+    details = "Honor thesis (supervised by Professor Robert J. Vallerand)"
+  ),
+  tibble(
+    what = "Diploma of Collegial Studies (Social Sciences)",
+    when = "2010/08 - 2012/05",
+    with = "Cégep Édouard-Montpetit",
+    where = "Longueuil, Québec, Canada",
+    details = ""
+  )
 )
 
-nice_entries(data, language = language, language_dictionary = edu_dictionary)
-
+nice_entries(data, language = language)
 ```

@@ -18,40 +18,30 @@ nice_header(
 )
 ```
 
-```{r Teaching_en, eval=English}
+```{r teaching}
 data <- rbind(
-  
   tibble(
-    what = "The psychology of attitudes", #PSY5610
-    when = "Winter 2019",
-    with = "Université du Québec à Montréal",
-    where = "Montréal, Québec, Canada",
-    details = c("Undergraduate university class", # (38 students)
-                "Average lecturer rating by students: 3.76/4")) # 93.92\\%
-)
-
-if (short) {
-   data$details <- NA
-}
-
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
-```
-
-```{r Teaching_fr, eval=French}
-data <- rbind(
-  
+    what = "Lecturer - Research methods applied to human resources management",
+    when = "2023/9 - ongoing",
+    with = "ESG UQAM Department of Organization and Human Resources",
+    where = "Montreal",
+    details = c("Lecturer")
+  ),
   tibble(
-    what = "PSY5610 - La psychologie des attitudes",
-    when = "Hiver 2019",
-    with = "Université du Québec à Montréal",
-    where = "Montréal, Québec, Canada",
-    details = c("Cours de premier cycle", # (38 personnes étudiantes)
-                "Moyenne des évaluations d'enseignement : 3.76/4")) # 93.92\\%
+    what = "Teaching Assistant",
+    when = "2020/9 - 2024/5",
+    with = "UQAM, Department of Psychology",
+    where = "Montreal",
+    details = c("Teaching Assistant for various courses")
+  ),
+  tibble(
+    what = "Animator, Teacher and Coach",
+    when = "2013 - 2020",
+    with = "YMCA, UQAM, Commission scolaire Marguerite-Bourgeois, Collège de Maisonneuve, etc.",
+    where = "Montreal",
+    details = c("Animator, Teacher and Coach")
+  )
 )
-
-if (short) {
-   data$details <- NA
-}
 
 detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 ```

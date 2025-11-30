@@ -8,106 +8,61 @@ output: html_document
 
 # Other Research Experience
 
-## PhD Intern, [Max Planck Social Neuroscience Lab - Tania Singer](https://www.social.mpg.de/2766/en)
 
 ```{r experience_new, include = TRUE, eval=TRUE}
 data <- rbind(
-  
   tibble(
-    what = "Edu:Social School: Strengthening Resilience and Social Skills Among Teachers",
-    URL = "https://www.edusocial-project.de/en/",
-    when = "2023/10-2024/05",
-    with = "Max Planck Social Neuroscience Lab",
-    where = "Berlin, Germany",
-    details = c("Contributed to conceiving research design, formulating hypotheses, designing new tasks, \\& reviewing litterature",
-                "Contributed to admin documents: clinical trial, preregistration, ethics, senate application, etc.",
-                "Topic 1: Social emotions (empathy and compassion)",
-                "Topic 2: Social interactions (egocentric social network analysis)")))
-
-data <- data %>% 
-  mutate(what = link(what, URL, color = "333333"))
-
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
-
-```
-
-## Research Assistant, [McGill Cognitive Neuroscience Lab - Amir Raz](https://raz-lab.org/)
-
-```{r experience, include = TRUE}
-data <- rbind(
-  
-  tibble(
-    what = "Various research projects",
+    what = "President",
     URL = "",
-    when = "2013/09–2016/09",
-    with = "McGill Cognitive Neuroscience Lab",
-    where = "Montréal, Québec",
-    details = c(
-      link(
-        "Sensory Deprivation, Consciousness, and Dissociation",
-        "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
-        "333333"),
-      link(
-        "Posture and Human Resting-State (EEG, MEG)",
-        "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
-        "333333"),
-      link(
-        "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
-        "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
-        "333333"),
-      link(
-        "Attention Training in Health and Disease",
-        "https://escholarship.mcgill.ca/concern/theses/12579w270",
-        "333333")
-      ))#,
-  
-  # tibble(
-  #   what = "Sensory Deprivation, Consciousness, and Dissociation",
-  #   URL = "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
-  #   when = "2014/09-2016/09",
-  #   with = "McGill Cognitive Neuroscience Lab",
-  #   where = "Montréal, Québec",
-  #   details = c("Conceived research designs \\& formulated hypotheses",
-  #               "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
-
-  # tibble(
-  #   what = "Administrative Assistantship",
-  #   when = "2013/09-2016/09",
-  #   with = "McGill Cognitive Neuroscience Lab",
-  #   where = "Montréal, Québec",
-  #   details = c("Worked on the WordPress website (razlab.org) \\& managed servers",
-  #               "Edited videos and photos",
-  #               "Performed various investigations on different topics for PI")),
-  # 
-  # tibble(
-  #   what = "Posture and Human Resting-State (EEG, MEG)",
-  #   URL = "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
-  #   when = "2015/05-07",
-  #   with = "McGill Cognitive Neuroscience Lab",
-  #   where = "Montréal, Québec",
-  #   details = "Performed various tasks (including statistical analyses) on Brainstorm, Matlab, and Photoshop"),
-  # 
-  # tibble(
-  #   what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
-  #   URL = "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
-  #   when = "2014/01-09",
-  #   with = "McGill Cognitive Neuroscience Lab",
-  #   where = "Montréal, Québec",
-  #   details = "Recruited and managed participants’ appointments"),
-  # 
-  # tibble(
-  #   what = "Attention Training in Health and Disease",
-  #   URL = "https://escholarship.mcgill.ca/concern/theses/12579w270",
-  #   when = "2014/05-08",
-  #   with = "McGill Cognitive Neuroscience Lab",
-  #   where = "Montréal, Québec",
-  #   details = "Trained children’s attention with video games (data collection)")
-  # 
+    when = "2022/9 - ongoing",
+    with = "nQuerio - technological solution for advanced scientific research methods",
+    where = "Montreal",
+    details = c("Technological solution for advanced scientific research methods")
+  ),
+  tibble(
+    what = "Research Laboratory Coordinator",
+    URL = "",
+    when = "2022 - ongoing",
+    with = "Vitrai | UQAM | Université du Québec à Montréal",
+    where = "Montreal",
+    details = c("Research Laboratory Coordinator")
+  ),
+  tibble(
+    what = "Research Assistant, Technical Assistance, Statistical Consulting",
+    URL = "",
+    when = "2021 - ongoing",
+    with = "UQAM, Department of Psychology and École Supérieure de Gestion (EGS)",
+    where = "Montreal",
+    details = c("Multiple contracts for research assistance, technical assistance to the ethics committee, and statistical consulting")
+  ),
+  tibble(
+    what = "Consultant in Statistical and Psychometric Analysis",
+    URL = "",
+    when = "2019/11 - 2019/12",
+    with = "Gauthier Murtada & Partenaires",
+    where = "Montreal",
+    details = c("Consultant in Statistical and Psychometric Analysis")
+  ),
+  tibble(
+    what = "Research Assistant",
+    URL = "",
+    when = "2016/10 - 2021/5",
+    with = "Organizational Behavior Research Laboratory, UQAM",
+    where = "Montreal",
+    details = c("Several projects carried out under the supervision of Professor Nathalie Houlfort and Professor Robert J. Vallerand")
+  ),
+  tibble(
+    what = "Research Assistant",
+    URL = "",
+    when = "2015/2 - 2015/12",
+    with = "Institut de recherche sur l'intégration professionnelle des immigrants, Collège de Maisonneuve",
+    where = "Montreal",
+    details = c("Under the supervision of Dr. Monica Schlobach")
   )
+)
 
-data <- data %>% 
+data <- data %>%
   mutate(what = link(what, URL, color = "333333"))
 
 detailed_entries(data, with, when, what, where, details, .protect = FALSE)
-
 ```

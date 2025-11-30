@@ -18,350 +18,40 @@ nice_header(
 
 ```{r Awards}
 data <- bind_rows(
-  
-    tibble(
-    Name = "NYU Faculty of Arts \\& Sciences Postdoctoral Travel Grant Award (USD \\$700)",
-    Name_alt = "Bourse de participation aux conférences de la Faculté des Arts \\& Sciences de NYU (USD \\$700)",
-    URL = "",
-    Details = "For participation at the 2025 MIT Polarization workshop",
-    Date = "2025",
-    Amount = 976,
-    Activity = NA,
-    Program = "Postdoc",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "Institute for Humane Studies Conference Travel Award (USD \\$941)",
-    Name_alt = "Bourse de participation aux conférences de l'Institute for Humane Studies (USD \\$941)",
-    URL = "",
-    Details = "For participation at the 2025 MIT Polarization workshop",
-    Date = "2025",
-    Amount = 1297,
-    Activity = NA,
-    Program = "Postdoc",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "Society for the Improvement of Psychological Science (SIPS) Commendation Award (to coauthors)",
-    Name_alt = "Society for the Improvement of Psychological Science (SIPS) Commendation Award (aux coauteurs)",
-    URL = "https://improvingpsych.org/2025/07/",
-    Details = "For *Communications Psychology* publication",
-    Date = "2025",
-    Amount = NA,
-    Activity = NA,
-    Program = "Postdoc",
-    Declined = FALSE),
-
-    tibble(
-    Name = "SNC-Lavalin Award (UQAM)",
-    Name_alt = "Bourse SNC-Lavalin (UQAM)",
-    URL = "",
-    Details = "",
-    Date = "2024",
-    Amount = 2800,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "Best Student Paper Award (UQAM)",
-    Name_alt = "Bourse Adrien-Pinard en psychologie (UQAM)",
-    URL = "",
-    Details = "",
-    Date = "2024",
-    Amount = 200,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "Adrien-Pinard Psychology Award (UQAM)",
-    Name_alt = "Bourse Adrien-Pinard en psychologie (UQAM)",
-    URL = "",
-    Details = "",
-    Date = "2024",
-    Amount = 4000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "International Mobility Award - Ministry of Education and Higher Education (MEES)",
-    Name_alt = "Bourse de mobilité internationale - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
-    URL = "",
-    Details = "",
-    Date = "2024",
-    Amount = 5600,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "International Mobility Award - International Youth Offices of Quebec (LOJIQ)",
-    Name_alt = "Bourse de mobilité internationale - Offices jeunesse internationaux du Québec (LOJIQ)",
-    URL = "",
-    Details = "",
-    Date = "2023",
-    Amount = 750,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "International Mobility Award - Ministry of Education and Higher Education (MEES)",
-    Name_alt = "Bourse de mobilité internationale - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
-    URL = "",
-    Details = "",
-    Date = "2023",
-    Amount = 5600,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "Student Involvement Recognition Award - Personality 2nd and 3rd cycles (UQAM)",
-    Name_alt = "Bourses d’implication étudiante - Personnalité 2e et 3e cycles (UQAM)",
-    URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
-    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
-    Date = "2023",
-    Amount = 1500,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
-    Name_alt = "Bourses d’implication étudiante - Projet en Santé et saines habitudes de vie (UQAM)",
-    URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
-    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
-    Date = "2023",
-    Amount = 1000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-    tibble(
-    Name = "Society for the Improvement of Psychological Science (SIPS) Mission Award (to easystats members)",
-    Name_alt = "Society for the Improvement of Psychological Science (SIPS) Mission Award (aux membres easystats)",
-    URL = "https://improvingpsych.org/2023/08/22/sips-2023-awards-announced/",
-    Details = "For easystats project",
-    Date = "2023",
-    Amount = NA,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "J.A. DeSève Foundation Award (UQAM)",
-    Name_alt = "Bourse de la Fondation J.A. DeSève (UQAM)",
-    URL = "https://fondation.uqam.ca/uqam-1/bourses-hiver2023",
-    Details = "For academic excellence",
-    Date = "2023",
-    Amount = 5500,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "UQAM Merit Award – Next Generation of Students (PhD)",
-    Name_alt = "Prix du mérite UQAM – Relève étudiante (Doctorat)",
-    URL = "https://actualites.uqam.ca/2023/deuxieme-edition-des-prix-du-merite/",
-    Details = "For academic excellence and exceptional character of the profile",
-    Date = "2023",
-    Amount = 1000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "Involvement Award from the Union of Professors of UQAM (SPUQ) - PhD",
-    Name_alt = "Bourse d'implication du SPUQ (UQAM) - Doctorat",
-    URL = "https://web.archive.org/web/20240203075622/https://www.spuq.uqam.ca/profil/bourses",
-    Details = "For student involvement and academic excellence",
-    Date = "2023",
-    Amount = 4000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "Desjardins Award, Helping Hand category – Academic perseverance",
-    Name_alt = "Bourse Desjardins, Catégorie Coup de pouce – Persévérance scolaire",
-    URL = "https://www.facebook.com/caissePierreBoucher/posts/pfbid0x5PtHX6HJP6FvT9PJ6v2jZQBWhjrvnZ7x9vVvhTbyPrLDyNhmUAXN48ZXE7Coxpcl",
-    Details = "For school perseverance and ambitions for the future",
-    Date = "2022",
-    Amount = 500,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-    
-    tibble(
-    Name = "Best Student Presentation Award at the 22nd ASMC Conference",
-    Name_alt = "Meilleure présentation orale au 22ee congrès de l'ASMC",
-    URL = "https://remi-theriault.com/awards/ASMC.pdf",
-    Details = "For the 22th congress seminar of the Association scientifique pour la modification du comportement",
-    Date = "2022",
-    Amount = 100,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
   tibble(
-    Name = "Conference Travel Award (UQAM)",
-    Name_alt = "Bourse de participation à des conférences (UQAM)",
+    Name = "Doctoral Research Award",
+    Name_alt = "Bourse de recherche doctorale",
     URL = "",
-    Details = "To participate to the CPA 2022 Annual National Convention",
-    Date = "2022",
-    Amount = 750,
+    Details = "Social Sciences and Humanities Research Council (SSHRC)",
+    Date = "2021-2023",
+    Amount = 21000,
     Activity = NA,
     Program = "PhD",
-    Declined = FALSE),
-  
+    Declined = FALSE
+  ),
   tibble(
-    Name = "Conference Travel Award (AGEPSY-CS)",
-    Name_alt = "Bourse de participation à des conférences (AGEPSY-CS)",
+    Name = "Doctoral Research Award",
+    Name_alt = "Bourse de recherche doctorale",
     URL = "",
-    Details = "To participate to the CPA 2022 Annual National Convention",
-    Date = "2022",
-    Amount = 100,
+    Details = "Fonds de recherche du Québec - Société et culture (FRQSC)",
+    Date = "2021-2024",
+    Amount = 21000,
     Activity = NA,
     Program = "PhD",
-    Declined = FALSE),
-  
+    Declined = FALSE
+  ),
   tibble(
-    Name = "Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
-    Name_alt = "Bourses d’implication étudiante - Projet en Santé et saines habitudes de vie (UQAM)",
-    URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
-    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
-    Date = "2022",
-    Amount = 1000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Paul-Gérin-Lajoie Next Star Award, for best paper (FRQSC)",
-    Name_alt = "Prix Relève étoile Paul-Gérin-Lajoie, pour meilleur article (FRQSC)",
-    URL = "https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-paul-gerin-lajoie-janvier-2022/",
-    Details = "Award-winning publication: Body swapping with a Black person boosts empathy",
-    Date = "2022",
-    Amount = 1000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Desjardins Student Involvement Award",
-    Name_alt = "Bourse d'engagement étudiant Desjardins",
+    Name = "Governor General's Academic Medal (Bronze)",
+    Name_alt = "Médaille académique du Gouverneur général (Bronze)",
     URL = "",
-    Details = "For student involvement",
-    Date = "2021",
-    Amount = 2000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Finalist (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
-    Name_alt = "Finaliste (< 6\\% des applicants) de la bourse Pierre Elliott Trudeau (valeur de \\$180,000)",
-    URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
-    Details = "Finalist only (< 6\\% of applicants)",
-    Date = "2021",
-    Amount = NA,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Excellence Award - Institute for Cognitive Sciences",
-    Name_alt = "Bourse d'excellence - Institut des sciences cognitives",
-    URL = "https://isc.uqam.ca/etudiants/laureats-excellence/",
-    Details = "Excellence award from the Institute of Cognitive Sciences",
-    Date = "2021",
-    Amount = 2000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Conference Travel Award (McGill University)",
-    Name_alt = "Bourse de participation à des conférences (McGill University)",
-    URL = "",
-    Details = "To attend the 2019 Congress of the Humanities and Social Sciences",
-    Date = "2019",
-    Amount = 485,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Storytellers public speaking contest Finalist (SSHRC)",
-    Name_alt = "Finaliste du concours J'ai une histoire à raconter (SSHRC)",
-    URL = "https://www.sshrc-crsh.gc.ca/news_room-salle_de_presse/latest_news-nouvelles_recentes/2019/2019_storytellers_top_25-jai_une_histoire_a_raconter_25_finalistes_2019-eng.aspx",
-    Details = "Public speaking contest from the Social Sciences and Humanities Research Council",
-    Date = "2019",
-    Amount = 3000,
-    Activity = NA,
-    Program = "PhD",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Faculty of Arts Research Internship Award (McGill University)",
-    Name_alt = "Bourse de stage de recherche de la Faculté des arts (Université McGill)",
-    URL = "https://www.mcgill.ca/arts-internships/research/recipients/2015-aria-recipients",
-    Details = "Excellence award from McGill University",
-    Date = "2015",
-    Amount = 4000,
-    Activity = NA,
-    Program = "Bachelor",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Claiming My Place Laureate, for citizen engagement (Québec Government)",
-    Name_alt = "Lauréat Je prends ma place, pour engagement citoyen (Gouvernement du Québec)",
-    URL = "https://youtu.be/Hm0_j3OG1BU",
-    Details = "Citizen involvement award from the Québec Government",
+    Details = "Governor General of Canada",
     Date = "2013",
-    Amount = 1000,
+    Amount = NA,
     Activity = NA,
-    Program = "Cegep",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Future Forces Laureate – College, Committed Student",
-    Name_alt = "Lauréat Forces Avenir – Cégep, étudiant engagé",
-    URL = "https://web.archive.org/web/20221002030207/https://ancien.fedecegeps.qc.ca/autres-activites/forces-avenir/",
-    Details = "Student involvement award from Forces Avenir",
-    Date = "2013",
-    Amount = 2500,
-    Activity = NA,
-    Program = "Cegep",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Cooperative-Odyssey Award, for student engagement",
-    Name_alt = "Bourse Coopérative-Odyssée, pour engagement étudiant",
-    URL = "",
-    Details = "Student involvement award from Cégep Édouard-Montpetit",
-    Date = "2012",
-    Amount = 750,
-    Activity = NA,
-    Program = "Cegep",
-    Declined = FALSE),
-  
-  tibble(
-    Name = "Bourse Édouard-Montpetit-Desjardins, pour engagement étudiant",
-    Name_alt = NA,
-    URL = "https://remi-theriault.com/awards/edouard-montpetit-desjardins.pdf",
-    Details = "Student involvement award from Cégep Édouard-Montpetit",
-    Date = "2011",
-    Amount = 750,
-    Activity = NA,
-    Program = "Cegep",
-    Declined = FALSE)
-  
+    Program = "College",
+    Declined = FALSE
+  )
 )
 
 nice_awards(data, language = language)
-
 ```

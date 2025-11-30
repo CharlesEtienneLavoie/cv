@@ -17,222 +17,71 @@ nice_header(
 
 ```{r service_en, eval=English}
 data <- bind_rows(
-  
   tibble(
-    what = "easystats: An R framework for easy statistical modeling, visualization, and reporting",
-    when = "2022-08 – Now",
-    role = "Core team member and developper",
-    where = "New York, New York, USA",
-    URL = "https://easystats.github.io/easystats/",
-    details = c(
-      "Write open-source community code and develop R packages downloaded over 20 millions times")
-    ),
-  
-  tibble(
-    what = "Various academic journals",
-    when = "2022-01 – Now",
-    role = "Journal Reviewer",
-    where = "New York, New York, USA",
-    URL = "https://www.webofscience.com/wos/author/record/AAC-6100-2022",
-    details = italics(
-      "Psychology of Consciousness: Theory, Research, and Practice (7), Group Processes and Intergroup Relations (1), \\\\ Journal of Statistical Software (1), Scientific Reports (1), International Journal of Mental Health Promotion (1), Discover Sustainability (1)")
-    ),
-  
-  tibble(
-    what = "Open Science Netherlands – Dutch Research Council (NWO)",
-    when = "2022-06 – 2022-06",
-    role = "Grant Reviewer",
-    where = "New York, New York, USA",
-    URL = "https://www.openscience.nl/en",
-    details = c(
-      "Reviewed an Open Science NL Grant for the Open Science Infrastructure call")
-    ),
-  
-  tibble(
-    what = "Canadian Positive Psychology Association (CPPA)",
-    when = "2019/09 – 2022/12",
-    role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
-    where = "Montréal, Québec, Canada",
-    URL = "https://cppa.ca/student-zone/",
-    details = c(
-      "Led ~70 Ambassadors (blog, webinar, logo, Instagram, etc.), Editor-in-Chief (blog)")
-    ),
-  
-  tibble(
-    what = "Quebec Positive Psychology Association",
-    # what = "Regroupement québécois de psychologie positive",
-    when = "2016/04 – 2022/12",
-    role = "Member of think-tank for the future of positive psychology in Québec",
-    where = "Montréal, Québec, Canada",
-    URL = "https://rqpp.org/",
-    details = c(
-      "Led development of freshly formed student division, various responsabilities"),
-    ),
-  
-  tibble(
-    what = "International Positive Psychology Association (IPPA)",
-    when = "2017/12 – 2022/12",
-    role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
-    where = "Montréal, Québec, Canada",
-    URL = "https://ippanetwork.org/ippa-divisions/sippa-students/",
-    details = c(
-      "SIPPA newsletter, connecting local members, meetings, interactive map")
-    ),
-  
-  tibble(
-    what = "Department of psychology (Université du Québec à Montréal)",
-    when = "2019/01 – 2022-12",
-    role = "Yoga \\& Meditation Student Committee Lead",
-    where = "Montréal, Québec, Canada",
-    details = c(
-      "Led or organized meditation and yoga sessions, secured grants (\\$2198) for affordable classes and campus well-being")
+    what = "Student Representative",
+    when = "2016-2022", # Approximate dates based on text file
+    role = "Psychology Program Committee",
+    where = "Université du Québec à Montréal",
+    URL = "",
+    details = c("Student Representative")
   ),
-  
   tibble(
-    what = "International Society of Hypnosis and the Québec Hypnosis Society",
-    when = "2018/08 – 2018/08",
-    role = "Conference Reviewer",
-    where = "Montréal, Québec, Canada",
-    URL = "https://www.ishhypnosis.org/",
-    details = c(
-      "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
-    )
-  
+    what = "Student Representative",
+    when = "2013-2015", # Approximate
+    role = "Humanities Program Committee",
+    where = "Collège de Maisonneuve",
+    URL = "",
+    details = c("Student Representative")
+  ),
+  tibble(
+    what = "Pedagogical Assistant",
+    when = "2013-2015",
+    role = "Student Association",
+    where = "Collège de Maisonneuve",
+    URL = "",
+    details = c("Pedagogical assistant")
+  ),
+  tibble(
+    what = "Student Representative",
+    when = "2013-2015",
+    role = "Board of Studies",
+    where = "Collège de Maisonneuve",
+    URL = "",
+    details = c("Student Representative")
+  ),
+  tibble(
+    what = "Administrator",
+    when = "2013-2015",
+    role = "Student Cooperative",
+    where = "Collège de Maisonneuve",
+    URL = "",
+    details = c("Administrator")
+  ),
+  tibble(
+    what = "Animator",
+    when = "2013-2015",
+    role = "\"l'été-rature\" project",
+    where = "Marguerite-Bourgeois school board, Montreal",
+    URL = "",
+    details = c("Animator")
+  ),
+  tibble(
+    what = "Adolescent Representative",
+    when = "2013-2015",
+    role = "Council of elected representatives",
+    where = "Forum jeunesse de l'île de Montréal",
+    URL = "",
+    details = c("Adolescent representative")
+  )
 )
 
 if (short) {
-   data <- data[c(1:4), ]
-   #data$details <- NA
+  data <- data[c(1:4), ]
+  # data$details <- NA
 }
 
-data <- data %>% 
+data <- data %>%
   mutate(what = link(what, URL, color = "333333"))
 
 detailed_entries(data, role, when, what, where, details, .protect = FALSE)
-
-```
-
-<!-- Archived! -->
-
-<!-- **Core team member** of *easystats* (seven members; official start date: 2022-08). The *easystats* project aims to increase the adoption of good statistical practices through open science tools, for example through a collection of R packages that provide a unifying and consistent framework around statistics. This responsibility involves writing code to improve the various R packages associated with the project and participating in the general decision-making. At this time, the *easystats* packages have collectively been downloaded over 20 millions times. Available from: https://easystats.github.io/easystats/ -->
-
-<!-- **Reviewer** for the *XXI World Congress of Medical and Clinical Hypnosis*, organized by the International Society of Hypnosis and the Société Québécoise d'Hypnose, August 22-25, 2018, Montréal. -->
-
-<!-- **Reviewer** for grants (1 total): *Open Science NL* (1) -->
-
-<!-- **Reviewer** for scientific journals (11 total): *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (7), *International Journal of Mental Health Promotion* (1), *Scientific Reports* (1), *Journal of Statistical Software* (1). See the "Peer Review" tab (and purple "Open dashboard" button on the right) at: https://www.webofscience.com/wos/author/record/AAC-6100-2022 -->
-
-```{r service_fr, eval=French}
-data <- bind_rows(
-  
-  tibble(
-    what = "easystats: Un écosystème R pour une analyse et une description faciles des statistiques",
-    when = "2022-08 – Maintenant",
-    role = "Membre de l'équipe principale et développeur",
-    where = "New York, New York, USA",
-    URL = "https://easystats.github.io/easystats/",
-    details = c(
-      "Écris du code communautaire libre et développe des modules R téléchargés plus de 20 millions de fois")
-    ),
-  
-  tibble(
-    what = "Diverses revues savantes",
-    when = "2022-01 – Maintenant",
-    role = "Évaluateur d'articles",
-    where = "New York, New York, USA",
-    URL = "https://www.webofscience.com/wos/author/record/AAC-6100-2022",
-    details = italics(
-      "Psychology of Consciousness: Theory, Research, and Practice (7), Group Processes and Intergroup Relations (1), \\\\ Journal of Statistical Software (1), Scientific Reports (1), International Journal of Mental Health Promotion (1), Discover Sustainability (1)")
-    ),
-  
-  tibble(
-    what = "Open Science Netherlands – Dutch Research Council (NWO)",
-    when = "2022-06 – 2022-06",
-    role = "Évaluateur de subventions",
-    where = "New York, New York, USA",
-    URL = "https://www.openscience.nl/en",
-    details = c(
-      "Évalué une subvention Open Science NL pour l'appel à projets Open Science Infrastructure")
-    ),
-  
-  tibble(
-    what = "Association canadienne de psychologie positive (ACPP)",
-    when = "2019/09 – 2022/12",
-    role = "Ambassadeur-étudiant principal \\& cofondateur du Programme des ambassadrices et ambassadeurs étudiant-es",
-    # role = "Ambassadeur-étudiant principal \\& cofondateur du Programme des ambassadeurs-étudiants",
-    where = "Montréal, Québec, Canada",
-    URL = "https://cppa.ca/student-zone/",
-    details = c(
-      "A dirigé ~70 ambassadrices-ambassadeurs (blog, webinaire, logo, Instagram, etc.), Rédacteur en chef (blog)")
-    ),
-  
-  tibble(
-    what = "Regroupement québécois de psychologie positive",
-    when = "2016/04 – 2022/12",
-    role = "Membre du groupe de réflexion sur l'avenir de la psychologie positive au Québec",
-    where = "Montréal, Québec, Canada",
-    URL = "https://rqpp.org/",
-    details = c(
-      "Dirigé le développement d'une division étudiante fraîchement formée, diverses responsabilités"),
-    ),
-  
-  tibble(
-    what = "International Positive Psychology Association (IPPA)",
-    when = "2017/12 – 2022/12",
-    role = "Représentant régional (pour le Québec) de la division étudiante (SIPPA)",
-    where = "Montréal, Québec, Canada",
-    URL = "https://ippanetwork.org/ippa-divisions/sippa-students/",
-    details = c(
-      "Infolettre SIPPA, connexion des membres locaux, réunions, carte interactive")
-    ),
-  
-  tibble(
-    what = "Departement de psychologie (Université du Québec à Montréal)",
-    when = "2019/01 – 2022-12",
-    role = "Responsable étudiant du Comité yoga \\& méditation",
-    where = "Montréal, Québec, Canada",
-    details = c(
-      "Dirigé ou organisé des séances de méditation et de yoga, subventions obtenues (2 198\\$) pour des cours abordables et le bien-être universitaire")
-  ),
-  
-  tibble(
-    what = "International Society of Hypnosis and the Société Québécoise d'Hypnose",
-    when = "2018/08 – 2018/08",
-    role = "Conference Reviewer",
-    where = "Montréal, Québec, Canada",
-    URL = "https://www.ishhypnosis.org/",
-    details = c(
-      "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
-    )
-  
-)
-
-if (short) {
-   data <- data[c(1:4), ]
-   #data$details <- NA
-}
-
-data <- data %>% 
-  mutate(what = link(what, URL, color = "333333"))
-
-detailed_entries(data, role, when, what, where, details, .protect = FALSE)
-
-```
-
-<!-- Archivé! -->
-
-<!-- **Membre de l'équipe noyau** de *easystats* (sept membres; date de début officielle : 2022-08). Le projet *easystats* vise à accroître l'adoption de bonnes pratiques statistiques grâce à des outils scientifiques ouverts, par exemple via une collection de modules R qui fournissent un cadre unificateur et cohérent autour des statistiques. Cette responsabilité implique d'écrire du code pour améliorer les différents modules R associés au projet et de participer à la prise de décision générale. À l'heure actuelle, les modules *easystats* ont été téléchargés collectivement plus de 20 millions de fois. Disponible sur : https://easystats.github.io/easystats/ -->
-
-<!-- **Évaluateur** pour le *XXI World Congress of Medical and Clinical Hypnosis*, organisé par le International Society of Hypnosis et la Société Québécoise d'Hypnose, 22-25 aout 2018, Montréal. -->
-
-<!-- **Évaluateur** pour subventions (1 total): *Open Science NL* (1) -->
-
-<!-- **Évaluateur** pour (un total de 11) revues savantes : *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (7), *International Journal of Mental Health Promotion* (1), *Scientific Reports* (1), *Journal of Statistical Software* (1). Voir l'onglet "Peer Review" (et le bouton violet « Ouvrir le tableau de bord » à droite) à : https://www.webofscience.com/wos/author/record/AAC-6100-2022 -->
-
-```{r peer_review_metrics, out.width="60%", eval = F}
-knitr::include_graphics("img/peer_review_metrics.png", dpi = NA)
-```
-
-```{r average_review_length, out.width="80%", eval = F}
-knitr::include_graphics("img/average_review_length.png", dpi = NA)
 ```

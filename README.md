@@ -74,8 +74,4 @@ optimization and documentation to the current template.
 
 ## Demos
 
-My long CV is available for demonstration here:
-<https://remi-theriault.com/cv>
-
-My short CV is available for demonstration here:
-<https://remi-theriault.com/cv_short.pdf>
+(Links removed as they pointed to the original template author's website)

@@ -1,13 +1,3 @@
----
-output: html_document
----
-
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
-\footnotesize
-
-```{r Conference posters, results = "asis"}
 nice_header(
   header = "Conference Poster Presentations",
   header_alt = "Communications affichées",
@@ -17,63 +7,22 @@ nice_header(
 
 ```{r posters_data, results = "asis"}
 data <- c(
-  "Thériault, R. (2025, December 6). *Addressing polarization and aggression through non-fiction and artificial intelligence*. Directions of Polarization, Social Norms & Trust in Societies: MIT Polarization Workshop, Cambridge, Massachusetts",
-  
-  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Mind & Life Summer Research Institute, Garrison, New York.", 
-  
-  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2024, August 5). *Is the mind more powerful than the heart? A randomized controlled trial of two loving-kindness interventions*. Mind & Life European Summer Research Institute, Pomaia, Italy.",
-  
-  "Chabot, B., Thériault, R., & Doucerain, M. (2023, July 23-27). *Diversity and immigration: How Montrealers feel about different cultural groups*. Biennial Conference, International Academy for Intercultural Research, Philadelphia, Pennsylvania.",
-  
-  # Chabot, B., Thériault, R., & Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. 45e congrès annuel de la Société québécoise pour la recherche en psychologie, Sherbrooke, QC.
-  
-  "Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, July). *Can loving-kindness meditation reduce aggressivity? A randomized controlled trial.* 7^th^ World Congress on Positive Psychology, Vancouver, BC.",
-  
-  "Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, June). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* 2021 Canadian Psychological Association Annual National Convention, Ottawa, ON.",
-  
-  # Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, April 28-May 7). *L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don?* 88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir.
-  
-  "Bold, J., Thériault, R., Olson, J., Stain, A., Curry, D., & Raz, A. (2020, February 29). *Replicating the body swap in a different sample: Preliminary data*. Society for Personality and Social Psychology Annual Convention, New Orleans, Louisiana.",
-  
-  "Thériault, R., Dandeneau, S, & Baldwin, M. (2019, July 20). *All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals*. 6^th^ World Congress on Positive Psychology, Melbourne, Australia.",
-  
-  "Thériault, R., & Dandeneau, S. (2019, June 12). *Trait self-control moderates the effects of priming mindfulness on aggressive behaviour*. Mind & Life Summer Research Institute, Garrison, New York.",
-  
-  "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, June 6). *Being one with diversity through perspective-taking: Mind or body to increase prosocial feelings?* Mind & Life Summer Research Institute, Garrison, New York",
-  
-  # "Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Thériault, R., Krol, S., Olson, J. A., & Raz, A. (2018, June 5). *Walking a mile in another's shoes: Can virtual reality decrease prejudice?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
-  
-  "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, May 24-25). *Comparing two interventions to reduce prejudice and increase empathy*. 4^th^ Canadian Conference on Positive Psychology, Toronto, ON.",
-  
-  # "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, June 2). *The Rubber Hand Illusion: Does load affect EEG & electrodermal activity?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
-  
-  "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, May 12). *The impact of load on electrodermal activity during the Rubber Hand Illusion*. 8^th^ Annual LDI Scientific Retreat, Montréal, QC."
-  
-  # "Mattuck, S., Thériault, R., Landry, M., & Raz, A. (2017, April 17). *Exploring the influence of cognitive resources on body ownership*. Psychology Undergraduate Research Day, McGill University, Montréal, QC.",
-  
-  # "Thériault, R., Landry, M., & Raz, A. (2016, April 15). *Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion*. Psychology Undergraduate Research Day, McGill University, Montréal, QC.",
-  
-  # "Thériault, R., Landry, M., & Raz, A. (2016, January 19). *Exploring cognitive aspects of body ownership*. 6^th^ Annual Faculty of Arts Undergraduate Research Event, McGill University, Montréal, QC."
-)
-
-dictionary <- tribble(
-  ~English, ~French,
-  "Pomaia", "Pomaïa",
-  "Italy", "Italie", 
-  "Philadelphia", "Philadelphie", 
-  "Pennsylvania", "Pennsylvanie",
-  "Louisiana", "Louisiane",
-  "New Orleans", "La Nouvelle-Orléans",
-  "Australia", "Australie",
-  "Canadian Psychological Association Annual National Convention",
-  "Congrès national annuel de la Société canadienne de psychologie"
+  "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *Psychological Needs Satisfaction as a Mediator in the Relationship Between Passion for Work and Work-Life Enrichment*. Poster presentation at the Tenth SELF International Conference.",
+  "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *The relationship between passion for work and the subdimensions of work-life enrichment*. Poster presentation at the 2022 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP).",
+  "Lavoie, C. É., Masson, R., Malchelosse, K., & Houlfort, N. (2021). *Effects of supervisor autonomy support on work-family balance: The mediating role of cognitive appraisals*. Poster presentation at the 2021 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP), virtual conference.",
+  "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2021). *Passion and inter-role enrichment: A look at workers with two occupational roles*. Poster presentation at the 2021 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP), virtual conference.",
+  "Masson, R., Lavoie, C. É., Malchelosse, K., & Houlfort, N. (2021). *Passion and role performance: A look at the mediating role of psychological needs*. Poster presentation at the 2021 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP), virtual conference.",
+  "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2019). *Passion and emotions: The mediating role of cognitive appraisals*. Poster presentation at the 6th International Positive Psychology Association (IPPA) Conference, Melbourne, Australia.",
+  "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2019). *Passion and emotions: The mediating role of cognitive appraisals*. Poster presentation at the 7th International Conference on Self-Determination Theory, Egmond aan Zee, Netherlands.",
+  "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 35th Anniversary of the Social Behavior Research Laboratory, Montreal, Canada.",
+  "Lavoie, C-E., & Vallerand, R.J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 4th Canadian Conference on Positive Psychology, Toronto, Canada.",
+  "Lavoie, C-E., & Vallerand, R.J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 29th International Congress of Applied Psychology, Montreal, Canada.",
+  "Schlobach, M., Ostiguy, D., Lavoie, C-E., & Figueroa Mendez, A. (2016). *Students as producers of intervention instruments: Social innovation at Collège de Maisonneuve*. Poster presentation at the ARC colloquium as part of the 84th Acfas Congress, Montreal, Canada."
 )
 
 number_pubs(
-  data, 
-  author_bold = author_bold, 
-  language = language, 
-  language_dictionary = dictionary
+  data,
+  author_bold = author_bold,
+  language = language
 )
-
 ```

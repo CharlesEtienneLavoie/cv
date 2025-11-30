@@ -8,41 +8,10 @@ output: html_document
 
 # Varia
 
-<!-- ## Professional Affiliations -->
+## Competencies
 
-\scriptsize
-
-```{r Affiliations, eval=FALSE}
-data <- rbind(
-  
-  tibble(
-    when = "2021/01  – Present",
-    with = "Institut des sciences cognitives (UQAM)"),
-  
-  tibble(
-    when = "2016/09 – Present",
-    with = "International Positive Psychology Association"),
-  
-  tibble(
-    when = "2015/09 – Present",
-    with = "Canadian Positive Psychology Association")
-)
-
-detailed_entries(data, with, when, .protect = FALSE)
-```
-
-<!-- ## Research Interests -->
-
-<!-- Positive & moral psychology, contemplative practices, Theory of Mind, empathy, self-regulatory strength, Self-Determination Theory, bodily self-consciousness -->
-
-## Technical Skills
-
-R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, Qualtrics, Survey Monkey, LimeSurvey, Inkscape
+Open science, Research skills, Teamwork, Organizational psychology, Online questionnaire design, R (programming language), Quantitative research, Statistics and data analysis, Public speaking, Qualtrics, Logistics and research technologies, Teaching and popularisation of science.
 
 ## Languages
 
-French (native), English (fluent)
-
-<!-- ## Activities and Interests -->
-
-<!-- Martial arts, breakdancing, skateboarding, gymnastics, bouldering -->
+French (native), English (advanced)
