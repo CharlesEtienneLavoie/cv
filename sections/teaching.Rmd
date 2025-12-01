@@ -37,6 +37,13 @@ data <- rbind(
     with = "YMCA, UQAM, Commission scolaire Marguerite-Bourgeois, Collège de Maisonneuve, etc.",
     where = "Montreal",
     details = c("Animator, Teacher and Coach")
+  ),
+  tibble(
+    what = "Test Administrator",
+    when = "2020/9 - ongoing",
+    with = "Société de transport de Montréal (STM), Division - Dotation et Planification de la main-d'oeuvre",
+    where = "Montreal",
+    details = c("Test Administrator")
   )
 )
 

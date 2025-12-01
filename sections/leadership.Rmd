@@ -10,10 +10,10 @@ data <- rbind(
   tibble(
     what = "Canadian Positive Psychology Association (CPPA)",
     when = "2019/09 – 2022/12",
-    role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
+    role = "Lead Student Ambassador and Co-founder, Student Ambassador Program",
     where = "Montréal, Québec",
     details = c(
-      "Lead of ~70 Ambassadors (blog, webinar, logo, Instagram, etc.), Editor-in-Chief (blog)"
+      "Lead of approx. 70 Ambassadors (blog, webinar, logo, Instagram, etc.), Editor-in-Chief (blog)"
     ),
     # "As lead, manage about 70 other Student Ambassadors for various projects (blog, webinar, logo, Instagram, etc.)",
     # "Editor-in-Chief for the blog project. Reviewed/supervised the publication of more than 20 blogs (see https://medium.com/@cppastudents)",
@@ -37,10 +37,10 @@ data <- rbind(
   tibble(
     what = "Department of psychology (Université du Québec à Montréal)",
     when = "2019/01 – 2022-12",
-    role = "Yoga \\& Meditation Student Committee Lead",
+    role = "Yoga and Meditation Student Committee Lead",
     where = "Montréal, Québec",
     details = c(
-      "Led or organized meditation and yoga sessions, secured grants (\\$2198) for affordable classes"
+      "Led or organized meditation and yoga sessions, secured grants (CAD 2198) for affordable classes"
     ),
     # "Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)",
     # "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)",

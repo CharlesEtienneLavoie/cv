@@ -1,0 +1,419 @@
+# Academic CVs for Faculty Job Searches (U.S. Context)
+
+[Source: CV Faculty Job Search Presentation (Students).pptx] 
+
+## Key Takeaways
+
+* In the U.S., a CV is a **multi-page** summary of academic and professional accomplishments used specifically for **academic applications** (postdocs, faculty, research positions, grants, fellowships).
+* The CV’s function is **not** to secure the job directly but to **generate enough interest to earn an interview**.
+* Certain sections are **always required** on an academic CV:
+
+  * Contact information
+  * Education
+  * Academic experience (teaching, research, academic appointments)
+  * Publications and presentations
+* Other sections are **optional and selected/tailored** based on the position: professional experience, digital projects, grants, awards, certifications, media coverage, service, memberships, research interests, skills, references.
+* **Order and emphasis of sections** should reflect the **priorities of the specific institution, department, and position**.
+* Experience sections should present **role, institution, location, dates, and concrete accomplishments**, using **specific details and numbers** where possible.
+* Education entries should include **institution, location, degree, date of completion, dissertation title, and advisor**.
+* Publication and presentation entries follow **consistent citation-like formatting**, with information on **title, venue, and (for presentations) location and date**.
+* On **U.S. CVs**, applicants should **not** disclose: photo, age/birthday, marital status/sex/number of children, Social Security Number, and salary/hours (unless required).
+* Job descriptions are a central tool: they should guide which **skills, experiences, and accomplishments** are highlighted and how the CV is **organized**.
+* Exercises in the material emphasize **critically reading job postings** and **diagnosing problems in sample CVs** to better understand good practice.
+
+## Contents
+
+* [Integrated Overview](#integrated-overview)
+* [Detailed Centralization](#detailed-centralization)
+
+  * [1. Purpose and Role of the CV](#1-purpose-and-role-of-the-cv)
+  * [2. Core Structure and Required Components](#2-core-structure-and-required-components)
+  * [3. Optional Sections and Additional Content](#3-optional-sections-and-additional-content)
+  * [4. Formatting and Content Examples](#4-formatting-and-content-examples)
+
+    * [4.1 Education Section Example](#41-education-section-example)
+    * [4.2 Teaching Experience Example](#42-teaching-experience-example)
+    * [4.3 Research Experience Example](#43-research-experience-example)
+    * [4.4 Publications Section Example](#44-publications-section-example)
+    * [4.5 Presentations Section Example](#45-presentations-section-example)
+  * [5. Tailoring the CV to the Position](#5-tailoring-the-cv-to-the-position)
+  * [6. Information to Exclude on U.S. CVs](#6-information-to-exclude-on-us-cvs)
+  * [7. Exercises Used in the Workshop](#7-exercises-used-in-the-workshop)
+* [Edge Cases, Caveats, and Limitations](#edge-cases-caveats-and-limitations)
+* [Source Map](#source-map)
+
+## Integrated Overview
+
+The material presents a practical, workshop-style guide to **constructing an academic CV** targeted at **faculty and related academic roles in the U.S.** The focus is twofold:
+
+1. **Understanding what hiring institutions look for** when evaluating CVs.
+2. **Structuring and writing the CV** so that an applicant’s strongest qualifications are prominent and clearly aligned with a given role.
+
+The CV is positioned as a **core document** in academic job searches, especially for **postdoctoral positions, faculty appointments, research roles, and funding opportunities**. It is a multi-page inventory of accomplishments rather than a short résumé. Its primary function is to **spark interest** and move a candidate from application review to **interview**.
+
+The presentation provides:
+
+* A list of **standard CV sections** and an indication of which ones are **always required**.
+* **Formatted examples** of crucial sections (Education, Teaching Experience, Research Experience, Publications, Presentations).
+* Guidance on **tailoring and organizing** the CV in line with **institutional and departmental priorities**.
+* Clear **“do not include” rules** for U.S.-style academic CVs.
+* Short **activities** built around a real job description and an example CV, to train candidates in identifying relevant information and structural errors.
+
+Overall, the emphasis is on **clarity, alignment with the job description, and strategic ordering of sections** rather than on ornate design or excessive brevity.
+
+## Detailed Centralization
+
+### 1. Purpose and Role of the CV
+
+* In the U.S., a **Curriculum Vitae (CV)** is a **multi-page summary** of academic and professional accomplishments used **specifically for academic applications**.
+* Typical uses:
+
+  * **Postdoctoral positions**
+  * **Faculty jobs**
+  * **Research positions**
+  * **Grants and fellowships**
+* The CV is meant to **create interest** in the application for a position.
+* It **does not directly “get you the job”**; rather, its main function is to **secure an interview** by convincingly showcasing the applicant’s record and potential.
+
+[Source: CV Faculty Job Search Presentation (Students).pptx]
+
+### 2. Core Structure and Required Components
+
+The presentation specifies a set of **content categories** for the CV and highlights which ones are **always required**.
+
+**General content categories listed:**
+
+* **Contact information** **(always included)**
+* **Education** **(always included)**
+* **Dissertation**
+* **Experience** – subdivided into:
+
+  * **Teaching** **(always included where applicable)**
+  * **Research** **(always included where applicable)**
+  * **Academic Appointments** **(always included where applicable)**
+* **Publications and Presentations** **(always included)**
+* **Professional Experience**
+* **Digital Projects**
+* **Grants/Honors/Awards/Fellowships**
+* **Licensure/Certification**
+* **Media coverage**
+* **University Service**
+* **Scholarly and Professional Memberships**
+* **Research interests**
+* **Skills/Competencies**
+* **References**
+
+**“Always included” sections (marked with ** in the source):**
+
+1. **Contact Information**
+
+   * Basic identifiers and ways to reach the applicant.
+   * Always present at the top of the CV.
+
+2. **Education**
+
+   * Formal academic degrees and their details.
+
+3. **Experience (Teaching, Research, Academic Appointments)**
+
+   * Academic roles that demonstrate teaching and research background.
+
+4. **Publications and Presentations**
+
+   * Scholarly outputs and academic talks.
+
+These sections form the **non-negotiable backbone** of an academic CV for faculty job searches.
+
+### 3. Optional Sections and Additional Content
+
+The presentation lists several **additional sections** beyond the core categories. These may or may not be included depending on **relevance to the position** and the applicant’s record:
+
+* **Professional Experience**
+
+  * Non-academic or mixed roles with relevant responsibilities (e.g., industry, policy, consulting).
+* **Digital Projects**
+
+  * Online or technical projects (e.g., digital humanities, datasets, tools).
+* **Grants/Honors/Awards/Fellowships**
+
+  * Funding, prizes, or distinctions received.
+* **Licensure/Certification**
+
+  * Formal credentials (e.g., certifications, professional licenses).
+* **Media Coverage**
+
+  * Instances where the applicant’s work or expertise was featured in media outlets.
+* **University Service**
+
+  * Service to the institution (committees, student advising beyond teaching, departmental work).
+* **Scholarly and Professional Memberships**
+
+  * Membership in professional or scholarly organizations.
+* **Research Interests**
+
+  * Thematic or methodological areas of ongoing or future research.
+* **Skills/Competencies**
+
+  * Particular technical, methodological, or language skills.
+* **References**
+
+  * List of referees, usually with names and contact information.
+
+The material emphasizes **organizing and tailoring**: these optional sections are used strategically to **highlight** experiences and qualifications that **match the position’s priorities**.
+
+### 4. Formatting and Content Examples
+
+The slides provide worked examples for some central sections. These examples function as **templates for level of detail and structure**, rather than rigid formats.
+
+#### 4.1 Education Section Example
+
+Example entry:
+
+* **Institution and location** on one line, with date:
+
+  * `New York University | New York, NY                                May 2026`
+* **Degree and field**:
+
+  * `PhD in Politics`
+* **Dissertation title**, labeled:
+
+  * `Dissertation: Campaigning While Female: Evolving Political Dialogue around Gender in American Elections`
+* **Advisor**, labeled:
+
+  * `Advisor: Prof. L. E. Katz`
+
+Key features illustrated:
+
+* Education entries contain:
+
+  * **Institution name**
+  * **City and state**
+  * **Month and year** of completion
+  * **Degree type and field**
+  * **Dissertation title**
+  * **Advisor’s name**
+* The example shows **clear labels** “Dissertation:” and “Advisor:” to make these elements immediately visible.
+
+#### 4.2 Teaching Experience Example
+
+Heading: **Teaching Experience**
+
+Example entry:
+
+* **Position and department** followed by institution, location, and dates:
+
+  * `Instructor, Department of Politics, New York University | New York, NY                2020–2022`
+* **Course taught** and descriptive bullet points:
+
+  * Course code and title:
+
+    * `POL 500: Comparative Politics`
+  * Descriptive responsibilities and scope:
+
+    * Taught a course for **60+ upper-level undergraduates** in the department.
+    * Refined the course reading list.
+    * Created exams.
+
+Key features illustrated:
+
+* Each teaching role includes:
+
+  * **Title** (e.g., Instructor)
+  * **Department**
+  * **Institution**
+  * **Location**
+  * **Time period** (years)
+* Under each role, **bulleted accomplishments** describe:
+
+  * **Course name/number**
+  * **Scope and level** (e.g., upper-level undergraduates)
+  * **Substantive responsibilities** (e.g., designing reading lists, creating exams)
+* The example emphasizes **specific detail** (course code, level of students, number of students) rather than vague descriptions.
+
+#### 4.3 Research Experience Example
+
+Heading: **Research Experience**
+
+Example entry:
+
+* **Position and institution** with location and dates:
+
+  * `Research Assistant, Center for Women and Politics, Princeton, NJ                    2019–2020`
+* **Bulleted responsibilities and tasks:**
+
+  * Conducted research on **successful strategies** that help women become elected into political offices in the U.S.
+  * Led interviews with **170 members of the public** on their attitudes about female political candidates.
+  * Assessed changes in political leanings of **registered female voters** over a **10-year period** in swing districts.
+
+Key features illustrated:
+
+* Each research role includes:
+
+  * **Title** (e.g., Research Assistant)
+  * **Center/Institution**
+  * **Location**
+  * **Time period**
+* Bullets highlight:
+
+  * **Substantive research tasks**.
+  * Use of **quantitative details** (e.g., “170 members of the public”, “10-year period”, “swing districts”).
+* Emphasis on **research design and data work** (interviews, longitudinal analysis, target populations).
+
+#### 4.4 Publications Section Example
+
+Heading: **Publications**
+
+Example entries:
+
+* `"Women and the Political Impact of Inclusive Democracy." Canadian Journal of Political Science. Forthcoming.`
+* `"Gender and Politics in 2016 Election Media Coverage." Political Analysis. Vol. 87 (2018), pp. 13–19.`
+* `"Women’s March: Rising Political Activism in the Trump Era." American Political Science Review, Vol. 239 (2017), pp. 452–467.`
+
+Key features illustrated:
+
+* Publication entries include:
+
+  * **Title in quotation marks**.
+  * **Journal title** in plain text.
+  * For published work: **volume number, year in parentheses, and page range**.
+  * For work not yet published but accepted: the word **“Forthcoming”** in place of full citation details.
+* The format is **consistent across entries** and resembles a **standard citation style**:
+
+  * Title → Journal → Volume/Year → Pages or Forthcoming.
+
+#### 4.5 Presentations Section Example
+
+Heading: **Presentations**
+
+Example entries:
+
+* `"Political Participation Among Women of Color in Twenty-First Century America," American Political Science Association, Philadelphia, PA. May 2017.`
+* `"Sex, Gender, and Identity in Washington," Department of Politics Student Conference, New York University, New York, NY. October 2015.`
+* `"Who are the Voters?" Department of Political Science Colloquium, CUNY, New York, NY. April 2012.`
+
+Key features illustrated:
+
+* Presentation entries include:
+
+  * **Title in quotation marks**.
+  * **Conference or event name**.
+  * **Institution and/or city**.
+  * **State/city details where relevant**.
+  * **Month and year**.
+* The examples show variety in settings:
+
+  * Large disciplinary conference (e.g., American Political Science Association).
+  * Departmental student conference.
+  * Departmental colloquium at another institution (CUNY).
+
+Overall, the examples show:
+
+* A **parallel structure** across entries.
+* Clear identification of **role (speaker)**, **venue**, **location**, and **time** of presentation.
+
+### 5. Tailoring the CV to the Position
+
+The workshop content emphasizes that **tailoring** is central to effective CV writing.
+
+Key guidance:
+
+* First, **understand the goals and priorities** of:
+
+  * The **institution**
+  * The **department**
+  * The **specific position**
+* Then, use this understanding to:
+
+  * **Reflect in the CV** the applicant’s **skills, accomplishments, knowledge, and experiences** that most closely **align** with those goals.
+  * **Order the sections** of the CV based on these priorities:
+
+    * For a position that heavily values teaching, **Teaching Experience** might appear earlier and be more detailed.
+    * For research-focused roles, **Research Experience** and **Publications** might be given earlier placement and more emphasis.
+
+The structure of the workshop itself reinforces this:
+
+* Participants are asked to **read a faculty job description** and identify aspects of the position that impact how a CV should be crafted.
+* They are also asked to **analyze a sample CV** (Leona’s CV) to identify mistakes given a specific job posting (Georgia Gwinnett College), as a way to practice **critical alignment** between job description and CV structure/content.
+
+### 6. Information to Exclude on U.S. CVs
+
+The presentation sets out explicit **“Do not disclose”** items for **U.S. CVs**:
+
+* **Photo**
+* **Age/Birthday**
+* **Marital Status/Sex/Number of Children**
+* **Social Security Number**
+* **Salary information or hours worked**, **unless required**
+
+These exclusions reflect standard practice in U.S. academic CVs, where such information is considered **irrelevant or inappropriate** for evaluation.
+
+### 7. Exercises Used in the Workshop
+
+The slides incorporate interactive **activities** meant to reinforce principles of CV design and tailoring.
+
+#### 7.1 Activity 1: Reading the Job Description
+
+Participants are instructed to:
+
+* **Reference a faculty job description** (linked in the workshop chat).
+* **Read through the job posting** carefully.
+* Determine:
+
+  * “From the posting, what do we know about the position that will be helpful in crafting a CV for the role?”
+
+The activity’s goal is to train participants to:
+
+* Extract **key signals** from job descriptions.
+* Connect these signals to **CV structure and emphasis** (e.g., importance of teaching vs. research, desired fields or methods, service expectations).
+
+Participants are expected to **share their feedback**, either in the chat or by speaking, reinforcing collaborative analysis.
+
+#### 7.2 Activity 2: Diagnosing Problems in a Sample CV
+
+Participants are instructed to:
+
+* **Reference both the faculty job description and an Exercise CV**, provided via links in the chat.
+* The job posting used in the activity is for **Georgia Gwinnett College**.
+* Task:
+
+  * “Based on the Georgia Gwinnett College job posting and what you know about CV writing, consider what errors Leona made in the construction of her CV.”
+* Participants are again to be prepared to **share feedback** in the chat or verbally.
+* A **“CV Guidelines”** link is provided, described as a source for a **better example** for this role.
+
+The activity’s purpose is to:
+
+* Encourage participants to **critically evaluate a real CV** in light of a real job posting.
+* Highlight the importance of:
+
+  * Appropriate **section selection and ordering**.
+  * Correct **content emphasis** for the position.
+  * Avoidance of **common mistakes** (though specific errors are not detailed in the slides themselves).
+
+A final **“Questions”** slide closes the session, indicating an opportunity for participants to clarify any remaining doubts.
+
+## Edge Cases, Caveats, and Limitations
+
+* The guidelines presented are **explicitly framed for U.S. academic contexts**, especially regarding:
+
+  * What **not** to include (photo, age, marital status, etc.).
+* The material does **not** provide:
+
+  * Full details of the referenced **job descriptions** or **Exercise CV** (Leona’s CV).
+  * Specific examples of the **errors** made in the sample CV; it instead prompts participants to find them.
+* Some best practices (e.g., **ordering sections** according to institutional priorities, **using specific quantitative details** in bullet points) are **illustrated through examples**, but not exhaustively codified into rules.
+* The slides focus on **content and structure**, with little to no discussion of:
+
+  * Visual design/formatting (fonts, margins, etc.).
+  * Discipline-specific variations beyond the example from politics.
+
+## Source Map
+
+* **CV Faculty Job Search Presentation (Students).pptx**
+  → Key Takeaways; Integrated Overview; Sections 1–7, including:
+
+  * Definition and purpose of a CV in U.S. academic job searches
+  * Required vs. optional CV sections
+  * Example formatting for Education, Teaching Experience, Research Experience, Publications, Presentations
+  * Tailoring CV content to job descriptions and institutional priorities
+  * “Do not disclose” list for U.S. CVs
+  * Description of workshop activities on job postings and sample CV analysis

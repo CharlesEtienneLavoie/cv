@@ -3,7 +3,7 @@
 
 ```{r media_coverage, results = "asis"}
 data <- c(
-    "Interview aired: (2016/9) *Experience of an engaged college student*, Salut Bonjour, TVA. Long version available in the Student Ambassadors section of the site: http://www.lecegep.com/fr/capsules-video"
+    "Interview aired: (2016/9) *Experience of an engaged college student*, Salut Bonjour, TVA. Long version available in the Student Ambassadors section of the site: [lecegep.com](http://www.lecegep.com/fr/capsules-video)"
 )
 
 number_pubs(

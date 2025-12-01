@@ -18,7 +18,7 @@ data <- c(
   "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 35th Anniversary of the Social Behavior Research Laboratory, Montreal, Canada.",
   "Lavoie, C-E., & Vallerand, R.J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 4th Canadian Conference on Positive Psychology, Toronto, Canada.",
   "Lavoie, C-E., & Vallerand, R.J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 29th International Congress of Applied Psychology, Montreal, Canada.",
-  "Schlobach, M., Ostiguy, D., Lavoie, C-E., & Figueroa Mendez, A. (2016). *Students as producers of intervention instruments: Social innovation at Collège de Maisonneuve*. Poster presentation at the ARC colloquium as part of the 84th Acfas Congress, Montreal, Canada."
+  "Schlobach, M., Ostiguy, D., Lavoie, C-E., and Figueroa Mendez, A. (2016). *Students as producers of intervention instruments: Social innovation at Collège de Maisonneuve*. Poster presentation at the ARC colloquium as part of the 84th Acfas Congress, Montreal, Canada."
 )
 
 number_pubs(

@@ -20,7 +20,7 @@ data <- rbind(
     what = "Research Laboratory Coordinator",
     URL = "",
     when = "2022 - ongoing",
-    with = "Vitrai | UQAM | Université du Québec à Montréal",
+    with = "Vitrai, UQAM, Université du Québec à Montréal",
     where = "Montreal",
     details = c("Research Laboratory Coordinator")
   ),
@@ -36,7 +36,7 @@ data <- rbind(
     what = "Consultant in Statistical and Psychometric Analysis",
     URL = "",
     when = "2019/11 - 2019/12",
-    with = "Gauthier Murtada & Partenaires",
+    with = "Gauthier Murtada and Partenaires",
     where = "Montreal",
     details = c("Consultant in Statistical and Psychometric Analysis")
   ),

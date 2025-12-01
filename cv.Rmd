@@ -115,7 +115,7 @@ headcolor <- "0a0a0a"
 ```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
 ```
 
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = F}
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd')}
 ```
 
 ```{r References parent, child=c('sections/references.Rmd'), eval = F}
@@ -123,13 +123,13 @@ headcolor <- "0a0a0a"
 
 <!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
 
-```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = F}
+```{r Other experience parent, child=c('sections/other_experience.Rmd')}
 ```
 
-```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = F}
+```{r Leadership parent, child=c('sections/leadership.Rmd')}
 ```
 
-```{r Varia parent, child=c('sections/varia.Rmd'), eval = F}
+```{r Varia parent, child=c('sections/varia.Rmd')}
 ```
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}

@@ -57,7 +57,7 @@ data <- bind_rows(
   tibble(
     what = "Animator",
     when = "2013-2015",
-    role = "\"l'été-rature\" project",
+    role = "'l'été-rature' project",
     where = "Marguerite-Bourgeois school board, Montreal",
     URL = "",
     details = c("Animator")
