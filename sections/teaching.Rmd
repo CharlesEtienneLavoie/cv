@@ -18,11 +18,14 @@ nice_header(
 ```{r teaching}
 data <- rbind(
   tibble(
-    what = "Lecturer - Research methods applied to human resources management",
-    when = "2023/9 - ongoing",
-    with = "ESG UQAM Department of Organization and Human Resources",
-    where = "Montreal",
-    details = c("Lecturer")
+    what = "Lecturer - ORH3000: Applied Research Methods in Human Resources Management",
+    when = "2023/09 - ongoing",
+    with = "ESG UQAM, Department of Organization and Human Resources",
+    where = "Montreal, Quebec, Canada",
+    details = c(
+      "Taught undergraduate course on research methods (Fall 2023, Winter 2024, Fall 2024)",
+      "Achieved high teaching evaluations: 3.93/4 (Fall 2023), 3.88/4 (Winter 2024), 3.89/4 (Fall 2024)"
+    )
   ),
   tibble(
     what = "Teaching Assistant",

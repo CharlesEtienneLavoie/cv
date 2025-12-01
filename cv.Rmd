@@ -1,7 +1,7 @@
 ---
 name: Charles-Étienne
 surname: Lavoie
-profilepic: "img/profile.jpg"
+
 position: "PhD Candidate / President, nQuerio"
 qualifications: "PhD (Cand.)"
 address: "2281, Pie IX, Montréal (Québec) H1V 2E6"

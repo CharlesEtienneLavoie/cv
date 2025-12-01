@@ -7,7 +7,7 @@ data <- rbind(
     when = "2018/09 - ongoing",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = "Thesis: Passion and emotions: The mediating role of cognitive appraisals"
+    details = c("Thesis: The role of coping strategies and emotional regulation in resolving work-family conflict episodes", "Advisor: Professor Nathalie Houlfort")
   ),
   tibble(
     what = "Psychology Doctorate, clinical profile (PsyD)",

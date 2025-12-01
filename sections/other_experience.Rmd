@@ -30,7 +30,11 @@ data <- rbind(
     when = "2021 - ongoing",
     with = "UQAM, Department of Psychology and École Supérieure de Gestion (EGS)",
     where = "Montreal",
-    details = c("Multiple contracts for research assistance, technical assistance to the ethics committee, and statistical consulting")
+    details = c(
+      "Research assistance",
+      "Technical assistance to the ethics committee",
+      "Statistical consulting"
+    )
   ),
   tibble(
     what = "Consultant in Statistical and Psychometric Analysis",
