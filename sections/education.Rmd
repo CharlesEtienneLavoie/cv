@@ -1,3 +1,5 @@
+# Education
+
 ```{r Education_data}
 data <- rbind(
   tibble(
@@ -20,13 +22,6 @@ data <- rbind(
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
     details = "Honor thesis (supervised by Professor Robert J. Vallerand)"
-  ),
-  tibble(
-    what = "Diploma of Collegial Studies (Social Sciences)",
-    when = "2010/08 - 2012/05",
-    with = "Cégep Édouard-Montpetit",
-    where = "Longueuil, Québec, Canada",
-    details = ""
   )
 )
 

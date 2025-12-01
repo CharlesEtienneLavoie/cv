@@ -13,7 +13,8 @@ capture.output(data_scholar[["scholar_publications"]] <- scholar::get_publicatio
   mutate(author = scholar::get_complete_authors(scholar.profile, pubid)))
 
 # Correct author name inconsistencies, if necessary! (uncomment below)
-data_scholar$scholar_publications$author <- gsub("R Thériault", "Rém Thériault", data_scholar$scholar_publications$author)
+# Correct author name inconsistencies, if necessary! (uncomment below)
+# data_scholar$scholar_publications$author <- gsub("R Thériault", "Rém Thériault", data_scholar$scholar_publications$author)
 # data_scholar$scholar_publications$author <- gsub("MM Doucerain |MM. Doucerain", "M Doucerain", data_scholar$scholar_publications$author)
 #                                                  data_scholar$scholar_publications$author)
 
@@ -82,32 +83,34 @@ row.to.correct <- nrow(data_scholar[["scholar_publications"]]) / 2
 # of publications, which sometimes have preprints which we want to remove, etc.
 
 # We subtract the ignored publications to the inflated number of publications
-data_scholar$scholar_data$Number[row.to.correct] <-
-  data_scholar$scholar_data$Number[row.to.correct] - length(ignored.publications)
+# We subtract the ignored publications to the inflated number of publications
+# data_scholar$scholar_data$Number[row.to.correct] <-
+#   data_scholar$scholar_data$Number[row.to.correct] - length(ignored.publications)
 
 # data_scholar$scholar_data <- data_scholar$scholar_data[-7, ]
 
 # Correct publication with several first authors
-if (any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$author))) {
-  data_scholar$scholar_publications$author <- gsub(
-    "M Miglianico, Rém Thériault", "Rém Thériault, M Miglianico",
-    data_scholar$scholar_publications$author
-  )
-}
+# Correct publication with several first authors
+# if (any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$author))) {
+#   data_scholar$scholar_publications$author <- gsub(
+#     "M Miglianico, Rém Thériault", "Rém Thériault, M Miglianico",
+#     data_scholar$scholar_publications$author
+#   )
+# }
 
 # Correct missing authors
 
-if ("Zph67rFs4hoC" %in% data_scholar$scholar_publications$pubid) {
-  x <- data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"]
-  x <- paste0(x, ", Rém Thériault, et al.")
-  data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"] <- x
-}
-
-if ("IWHjjKOFINEC" %in% data_scholar$scholar_publications$pubid) {
-  x <- data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"]
-  x <- paste0(x, ", Rém Thériault, et al.")
-  data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"] <- x
-}
+# if ("Zph67rFs4hoC" %in% data_scholar$scholar_publications$pubid) {
+#   x <- data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"]
+#   x <- paste0(x, ", Rém Thériault, et al.")
+#   data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"] <- x
+# }
+#
+# if ("IWHjjKOFINEC" %in% data_scholar$scholar_publications$pubid) {
+#   x <- data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"]
+#   x <- paste0(x, ", Rém Thériault, et al.")
+#   data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"] <- x
+# }
 
 # Get dataframe with stats
 get_stats <- function(data_scholar, author.name = author.name) {
