@@ -29,15 +29,14 @@ get_scholar_name <- function(scholar.profile) {
 }
 
 create_grant_entry <- function(
-  Funder_Name,
-  Project_Name,
-  Funder_Name_alt = NULL,
-  Project_Name_alt = NULL,
-  URL = "",
-  Date,
-  Amount,
-  Program = ""
-) {
+    Funder_Name,
+    Project_Name,
+    Funder_Name_alt = NULL,
+    Project_Name_alt = NULL,
+    URL = "",
+    Date,
+    Amount,
+    Program = "") {
   a <- tibble(
     Name = paste0("\\textbf{", Funder_Name, "}"),
     Name_alt = ifelse(
@@ -115,7 +114,7 @@ nice_awards <- function(data, theme_color = headcolor, language = "EN") {
   # Bold total amount (must do later since we have symbol processing)
   data[1, "Amount"] <- bold(data[1, "Amount"])
 
-  data[1, 1] <- gsub("333333", theme_color, data[1, 1]) #Red: FF0000, but we use same colour as rest
+  data[1, 1] <- gsub("333333", theme_color, data[1, 1]) # Red: FF0000, but we use same colour as rest
 
   brief_entries(data, Name, Date, Amount, .protect = FALSE)
 }
@@ -176,16 +175,15 @@ nice_grants <- function(data, theme_color = headcolor, language = "EN") {
   # Bold total amount (must do later since we have symbol processing)
   data[1, "Amount"] <- bold(data[1, "Amount"])
 
-  data[1, 1] <- gsub("333333", theme_color, data[1, 1]) #Red: FF0000, but we use same colour as rest
+  data[1, 1] <- gsub("333333", theme_color, data[1, 1]) # Red: FF0000, but we use same colour as rest
 
   brief_entries(data, what = Name, when = Date, with = Amount, .protect = FALSE)
 }
 
 scale_awesomecv_fonts <- function(
-  scale = 1,
-  file_path = "awesome-cv.cls",
-  backup = TRUE
-) {
+    scale = 1,
+    file_path = "awesome-cv.cls",
+    backup = TRUE) {
   if (!file.exists(file_path)) {
     stop("File not found: ", file_path)
   }
@@ -266,13 +264,15 @@ format.authors <- function(scholar.profile, author.name) {
 }
 
 gsub_language <- function(text, dictionary) {
-  for (i in seq_len(nrow(dictionary))) {
-    text <- gsub(
-      dictionary$English[i],
-      dictionary$French[i],
-      text,
-      fixed = TRUE
-    )
+  if (!is.null(dictionary) && nrow(dictionary) > 0) {
+    for (i in seq_len(nrow(dictionary))) {
+      text <- gsub(
+        dictionary$English[i],
+        dictionary$French[i],
+        text,
+        fixed = TRUE
+      )
+    }
   }
   gsub(
     " \\[[^]]*\\]",
@@ -297,12 +297,25 @@ month_map <- tribble(
   "December",  "décembre"
 )
 
+education_map <- tribble(
+  ~English, ~French,
+  "Psychology Doctorate, research profile (PhD)", "Doctorat en psychologie, profil recherche (PhD)",
+  "Psychology Doctorate, clinical profile (PsyD)", "Doctorat en psychologie, profil clinique (D.Psy.)",
+  "Bachelor's degree in psychology (B.Sc.)", "Baccalauréat en psychologie (B.Sc.)",
+  "Diploma of Collegial Studies (Social Sciences)", "Diplôme d'études collégiales (Sciences humaines)",
+  "Thesis:", "Thèse :",
+  "Advisor:", "Supervision :",
+  "Schooling completed", "Scolarité complétée",
+  "Honor thesis (supervised by", "Thèse d'honneur (supervisée par",
+  "Honor roll of the college", "Tableau d'honneur du collège",
+  " - ongoing", " - présent"
+)
+
 number_pubs <- function(
-  pubs,
-  author_bold = NULL,
-  language = "EN",
-  language_dictionary = NULL
-) {
+    pubs,
+    author_bold = NULL,
+    language = "EN",
+    language_dictionary = NULL) {
   if (language != "EN") {
     language_dictionary <- rbind(language_dictionary, month_map)
     pubs <- gsub_language(pubs, language_dictionary)
@@ -327,6 +340,7 @@ if_english <- function(x, y, language = language) {
 
 nice_entries <- function(data, language = "EN", language_dictionary = NULL) {
   if (language != "EN") {
+    language_dictionary <- rbind(language_dictionary, month_map, education_map)
     data$what <- gsub_language(data$what, language_dictionary)
     data$with <- gsub_language(data$with, language_dictionary)
     data$details <- gsub_language(data$details, language_dictionary)

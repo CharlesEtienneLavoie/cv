@@ -1,0 +1,82 @@
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize 
+
+```{r Service, results = "asis"}
+nice_header(
+    header = "Academic Service",
+    header_alt = "Service académique",
+    language = language
+)
+```
+
+```{r service_fr}
+data <- bind_rows(
+    tibble(
+        what = "Représentant étudiant",
+        when = "2016-2022",
+        role = "Comité de programme de doctorat en psychologie",
+        where = "Université du Québec à Montréal",
+        URL = "",
+        details = c("Représentant étudiant")
+    ),
+    tibble(
+        what = "Représentant étudiant",
+        when = "2013-2015",
+        role = "Comité de programme de sciences humaines",
+        where = "Collège de Maisonneuve",
+        URL = "",
+        details = c("Représentant étudiant")
+    ),
+    tibble(
+        what = "Assistant pédagogique",
+        when = "2013-2015",
+        role = "Association étudiante",
+        where = "Collège de Maisonneuve",
+        URL = "",
+        details = c("Assistant pédagogique")
+    ),
+    tibble(
+        what = "Représentant étudiant",
+        when = "2013-2015",
+        role = "Commission des études",
+        where = "Collège de Maisonneuve",
+        URL = "",
+        details = c("Représentant étudiant")
+    ),
+    tibble(
+        what = "Administrateur",
+        when = "2013-2015",
+        role = "Coopérative étudiante",
+        where = "Collège de Maisonneuve",
+        URL = "",
+        details = c("Administrateur")
+    ),
+    tibble(
+        what = "Animateur",
+        when = "2013-2015",
+        role = "Projet 'l'été-rature'",
+        where = "Commission scolaire Marguerite-Bourgeois, Montréal",
+        URL = "",
+        details = c("Animateur")
+    ),
+    tibble(
+        what = "Représentant adolescent",
+        when = "2013-2015",
+        role = "Conseil des représentants élus",
+        where = "Forum jeunesse de l'île de Montréal",
+        URL = "",
+        details = c("Représentant adolescent")
+    )
+)
+
+if (short) {
+    data <- data[c(1:4), ]
+}
+
+data <- data %>%
+    mutate(what = link(what, URL, color = "333333"))
+
+detailed_entries(data, role, when, what, where, details, .protect = FALSE)
+```

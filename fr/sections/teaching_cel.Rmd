@@ -1,0 +1,54 @@
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+```{r, results = "asis", eval = FALSE}
+cat("\\pagebreak")
+```
+
+```{r Teaching, results = "asis"}
+nice_header(
+    header = "Teaching",
+    header_alt = "Enseignement",
+    language = language
+)
+```
+
+```{r teaching}
+data <- rbind(
+    tibble(
+        what = "Chargé de cours - ORH3000 : Méthodes de recherche appliquée en gestion des ressources humaines",
+        when = "2023/09 - présent",
+        with = "ESG UQAM, Département d'organisation et ressources humaines",
+        where = "Montréal, Québec, Canada",
+        details = c(
+            "Enseignement d'un cours de premier cycle sur les méthodes de recherche (Automne 2023, Hiver 2024, Automne 2024)",
+            "Obtention d'excellentes évaluations d'enseignement : 3.93/4 (Automne 2023), 3.88/4 (Hiver 2024), 3.89/4 (Automne 2024)"
+        )
+    ),
+    tibble(
+        what = "Auxiliaire d'enseignement",
+        when = "2020/9 - 2024/5",
+        with = "UQAM, Département de psychologie",
+        where = "Montréal",
+        details = c("Auxiliaire d'enseignement pour divers cours")
+    ),
+    tibble(
+        what = "Animateur, Enseignant et Entraîneur",
+        when = "2013 - 2020",
+        with = "YMCA, UQAM, Commission scolaire Marguerite-Bourgeois, Collège de Maisonneuve, etc.",
+        where = "Montréal",
+        details = c("Animateur, Enseignant et Entraîneur")
+    ),
+    tibble(
+        what = "Administrateur de tests",
+        when = "2020/9 - présent",
+        with = "Société de transport de Montréal (STM), Division - Dotation et Planification de la main-d'œuvre",
+        where = "Montréal",
+        details = c("Administrateur de tests")
+    )
+)
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```

@@ -1,0 +1,20 @@
+```{r Conference Talks, results = "asis"}
+nice_header(
+    header = "Conference Talks",
+    header_alt = "Communications orales",
+    language = language
+)
+```
+
+```{r talks_data, results = "asis"}
+data <- c(
+    "Lavoie, C-E., & Vallerand, R.J. (2018). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation orale au Colloque annuel du Département de psychologie, UQAM, Montréal, QC, Canada.",
+    "Lavoie, C-E., & Vallerand, R.J. (2018). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation orale au Colloque des thèses de spécialisation, UQAM, Montréal, QC, Canada."
+)
+
+number_pubs(
+    data,
+    author_bold = author_bold,
+    language = language
+)
+```

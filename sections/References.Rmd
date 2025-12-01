@@ -12,39 +12,12 @@ nice_header(
 
 ```{r References_en, results="asis", eval=English}
 cat(
-  "**Jay J. Van Bavel** \\
-Professor of Psychology \\& Director \\
-New York University \\& Center for Conflict & Cooperation \\
-jay.vanbavel@nyu.edu
-
-**Stéphane Dandeneau** \\
-Professor of Psychology \\
-Memorial University of Newfoundland \\
-sdandeneau@mun.ca
-
-**Marina M. Doucerain** \\
-Professor of Psychology \\
-Université du Québec à Montréal \\
-doucerain.marina@uqam.ca"
+  ""
 )
 ```
 
 ```{r References_fr, results="asis", eval=French}
 cat(
-  "**Jay J. Van Bavel** \\
-Professeur de psychologie \\& Directeur \\
-New York University \\& Center for Conflict & Cooperation \\
-jay.vanbavel@nyu.edu
-
-**Stéphane Dandeneau** \\
-Professeur de psychologie \\
-Memorial University of Newfoundland \\
-sdandeneau@mun.ca
-
-**Marina M. Doucerain** \\
-Professeure de psychologie \\
-Université du Québec à Montréal \\
-doucerain.marina@uqam.ca"
+  ""
 )
 ```
-

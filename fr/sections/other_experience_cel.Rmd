@@ -1,0 +1,69 @@
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Autres expériences de recherche
+
+
+```{r experience_new, include = TRUE, eval=TRUE}
+data <- rbind(
+    tibble(
+        what = "Président",
+        URL = "",
+        when = "2022/9 - présent",
+        with = "nQuerio - Solution technologique pour les méthodes de recherche scientifique avancées",
+        where = "Montréal",
+        details = c("Solution technologique pour les méthodes de recherche scientifique avancées")
+    ),
+    tibble(
+        what = "Coordonnateur de laboratoire de recherche",
+        URL = "",
+        when = "2022 - présent",
+        with = "Vitrai, UQAM, Université du Québec à Montréal",
+        where = "Montréal",
+        details = c("Coordonnateur de laboratoire de recherche")
+    ),
+    tibble(
+        what = "Assistant de recherche, Assistance technique, Consultation statistique",
+        URL = "",
+        when = "2021 - présent",
+        with = "UQAM, Département de psychologie et École des sciences de la gestion (ESG)",
+        where = "Montréal",
+        details = c(
+            "Assistance de recherche",
+            "Assistance technique au comité d'éthique",
+            "Consultation statistique"
+        )
+    ),
+    tibble(
+        what = "Consultant en analyse statistique et psychométrique",
+        URL = "",
+        when = "2019/11 - 2019/12",
+        with = "Gauthier Murtada et Partenaires",
+        where = "Montréal",
+        details = c("Consultant en analyse statistique et psychométrique")
+    ),
+    tibble(
+        what = "Assistant de recherche",
+        URL = "",
+        when = "2016/10 - 2021/5",
+        with = "Laboratoire de recherche sur le comportement organisationnel, UQAM",
+        where = "Montréal",
+        details = c("Plusieurs projets réalisés sous la supervision de la professeure Nathalie Houlfort et du professeur Robert J. Vallerand")
+    ),
+    tibble(
+        what = "Assistant de recherche",
+        URL = "",
+        when = "2015/2 - 2015/12",
+        with = "Institut de recherche sur l'intégration professionnelle des immigrants, Collège de Maisonneuve",
+        where = "Montréal",
+        details = c("Sous la supervision de Dr. Monica Schlobach")
+    )
+)
+
+data <- data %>%
+    mutate(what = link(what, URL, color = "333333"))
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```

@@ -1,0 +1,14 @@
+# Couverture médiatique
+\footnotesize
+
+```{r media_coverage, results = "asis"}
+data <- c(
+    "Entrevue diffusée : (2016/9) *L'expérience d'un étudiant engagé au collégial*, Salut Bonjour, TVA. Version longue disponible dans la section Ambassadeurs étudiants du site : [lecegep.com](http://www.lecegep.com/fr/capsules-video)"
+)
+
+number_pubs(
+    data,
+    author_bold = author_bold,
+    language = language
+)
+```
