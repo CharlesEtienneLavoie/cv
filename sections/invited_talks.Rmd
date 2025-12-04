@@ -16,9 +16,9 @@ nice_header(
 
 ```{r invited_talks, results = "asis"}
 data <- c(
-  "Lavoie, C-E. (2017). *Managing stress to thrive in the dance program*. Workshop presented at the Student Success Promotion Day in the Dance Program, CÉGEP Saint-Laurent, Montreal, Canada.",
-  "Lavoie, C-E. (2017). *Managing stress to foster well-being in a health promotion context*. Workshop presented at the Trainer Recertification Congress - YMCA of Quebec, Montreal, Canada.",
-  "Lavoie, C-E. (2015, 2016, & 2017). *Managing stress to thrive in college*. Workshops presented during new student welcome ceremonies at Collège de Maisonneuve, Montreal, Canada."
+  "**Lavoie, C-E.** (2017). *Managing stress to thrive in the dance program*. Workshop presented at the Student Success Promotion Day in the Dance Program, CÉGEP Saint-Laurent, Montreal, Canada.",
+  "**Lavoie, C-E.** (2017). *Managing stress to foster well-being in a health promotion context*. Workshop presented at the Trainer Recertification Congress - YMCA of Quebec, Montreal, Canada.",
+  "**Lavoie, C-E.** (2015, 2016, & 2017). *Managing stress to thrive in college*. Workshops presented during new student welcome ceremonies at Collège de Maisonneuve, Montreal, Canada."
 )
 
 number_pubs(

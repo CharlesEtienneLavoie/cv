@@ -75,6 +75,8 @@ headcolor <- "0a0a0a"
 # See all instructions and tips here: https://github.com/rempsyc/cv
 ```
 
+*This CV is generated from a reproducible R Markdown source using the {vitae} package. Source: https://github.com/CharlesEtienneLavoie/cv*
+
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 

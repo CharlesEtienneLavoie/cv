@@ -8,8 +8,8 @@ nice_header(
 
 ```{r talks_data, results = "asis"}
 data <- c(
-  "Lavoie, C-E., & Vallerand, R.J. (2018). *Passion and emotions: The mediating role of cognitive appraisals*. Oral presentation at the Annual Colloquium of the Department of Psychology, UQAM, Montreal, QC, Canada.",
-  "Lavoie, C-E., & Vallerand, R.J. (2018). *Passion and emotions: The mediating role of cognitive appraisals*. Oral presentation at the Colloquium of Specialization Theses, UQAM, Montreal, QC, Canada."
+  "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *Passion and emotions: The mediating role of cognitive appraisals*. Oral presentation at the Annual Colloquium of the Department of Psychology, UQAM, Montreal, QC, Canada.",
+  "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *Passion and emotions: The mediating role of cognitive appraisals*. Oral presentation at the Colloquium of Specialization Theses, UQAM, Montreal, QC, Canada."
 )
 
 number_pubs(
