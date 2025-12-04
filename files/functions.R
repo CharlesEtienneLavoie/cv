@@ -1,4 +1,26 @@
+# Required packages
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("tibble")) install.packages("tibble")
+if (!require("stringr")) install.packages("stringr")
+if (!require("forcats")) install.packages("forcats")
+if (!require("scholar")) install.packages("scholar")
+if (!require("scales")) install.packages("scales")
+if (!require("gsubfn")) install.packages("gsubfn")
+
+library(dplyr)
+library(tibble)
+library(stringr)
+library(forcats)
+library(scholar)
+
 # Define language parameters
+if (!exists("language")) {
+  language <- "EN"
+}
+if (!exists("headcolor")) {
+  headcolor <- "000000" # Default to black if not defined
+}
+
 English <- language == "EN"
 French <- language == "FR"
 
