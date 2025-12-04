@@ -11,24 +11,24 @@ data <- rbind(
   ),
   tibble(
     what = "Psychology Doctorate, clinical profile (PsyD)",
-    when = "2016/09 - 2020/05",
+    when = "2018/09 - 2024/09",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
     details = "Schooling completed"
   ),
   tibble(
     what = "Bachelor's degree in psychology (B.Sc.)",
-    when = "2013/09 - 2016/05",
+    when = "2015/09 - 2018/09",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
     details = "Honor thesis (supervised by Professor Robert J. Vallerand)"
   ),
   tibble(
     what = "Diploma of Collegial Studies (Social Sciences)",
-    when = "2010/08 - 2012/05",
+    when = "2013/09 - 2015/09",
     with = "Collège de Maisonneuve",
     where = "Montréal, Québec, Canada",
-    details = "Honor roll of the college (2010-2012)"
+    details = "Special mention for involvement"
   )
 )
 

@@ -330,6 +330,7 @@ education_map <- tribble(
   "Schooling completed", "Scolarité complétée",
   "Honor thesis (supervised by", "Thèse d'honneur (supervisée par",
   "Honor roll of the college", "Tableau d'honneur du collège",
+  "Special mention for involvement", "Mention spéciale pour l'implication",
   " - ongoing", " - présent"
 )
 
