@@ -1,0 +1,66 @@
+# Publications
+
+## Articles évalués par les pairs : Publiés et acceptés
+
+```{r pubs_data, results = "asis"}
+data <- c(
+    "Malchelosse, K., Houlfort, N., **Lavoie, C.-É.**, & Masson, R. (2023). The role of resilience and psychological needs satisfaction in the relationship between passion for work and work-life enrichment. *Current Psychology*, 1-17.",
+    "Pellerin, S., Ollier-Malaterre, A., Kossek, E.E., Afota, M.C., Cousineau, L., **Lavoie, C.-É.**, Beham, B., Morandin, G., Russo, M., Jaga, A., Ma, J., Léon, E., Lu, C-q., & Parent-Rocheleau, X. (2023). The Right to Disconnect: A Policy Innovation First Step. *Stanford Social Innovation Review*.",
+    "**Lavoie, C.-É.**, Vallerand, R. J., & Verner-Filion, J. (2021). Passion and emotions: The mediating role of cognitive appraisals. *Psychology of Sport and Exercise*, 54, 101907.",
+    "**Lavoie, C.-É.**, & Houlfort, N. (accepté). The interplay of coping with role conflict and emotion regulation: Creation and validation of the Coping with Role Conflict Scale. *Frontiers in Organizational Psychology*."
+)
+
+number_pubs(
+    data,
+    author_bold = author_bold,
+    language = language
+)
+```
+
+## Articles évalués par les pairs : Soumis
+
+```{r pubs_review, results = "asis"}
+data_review <- c(
+    "Conigrave, J. H., Bradshaw, E. L., **Lavoie, C.-É.**, Lee, K., & Ryan, R. M. (soumis). When alcohol fills the gap: Basic psychological need satisfaction and frustration predict hazardous drinking. Manuscrit soumis à *Psychology of Addictive Behaviors*.",
+    "Boutin, S., **Lavoie, C.-É.**, Martin-Storey, A., & Paquette, G. (soumis). Are gender-based attitudes associated with relational aggression in adolescence? Manuscrit soumis à la *Revue de psychoéducation*, section thématique sur les relations avec les pairs."
+)
+
+number_pubs(
+    data_review,
+    author_bold = author_bold,
+    language = language
+)
+```
+
+## Manuscrits en préparation
+
+```{r pubs_prep, results = "asis"}
+data_prep <- c(
+    "**Lavoie, C.-É.**, & Gagné, M. (en préparation). *To expand or to refine basic psychological needs theory? The case of incremental competence and novelty in self-determination theory.* Manuscrit en préparation pour soumission à *Motivation and Emotion*.",
+    "Afota, M.-C., Ollier-Malaterre, A., Russo, M., Chung, H., Jaga, A., **Lavoie, C.-É.**, Abendroth-Sohl, A.-K., Nordberg, T. H., Nilsen, W., Lupu, I., Mabaso, B. P., & Lévesque, J. (en préparation). *Digital detox and our relationship with digital technologies: A collaborative autoethnography of researchers and practitioners.* Manuscrit en préparation pour soumission à *New Technology, Work and Employment*.",
+    "**Lavoie, C.-É.**, & Houlfort, N. (en préparation). *Coping strategies and emotion regulation in work–life conflict: A longitudinal study.* Manuscrit en préparation pour le *Journal of Occupational Health Psychology*.",
+    "Adu, C., **Lavoie, C.-É.**, & Houlfort, N. (en préparation). *Balancing act in play: Development of role boundary management profiles among student-athletes.* Manuscrit en préparation pour soumission à *Psychology of Sport and Exercise*.",
+    "Houlfort, N., & **Lavoie, C.-É.** (en préparation). *Basic psychological needs and well-being at work and at home in the context of work–family conflict episodes: A daily diary study.* Manuscrit en préparation pour soumission au *Journal of Organizational Behavior*.",
+    "Masson, R., **Lavoie, C.-É.**, & Houlfort, N. (en préparation). *Perceived sacrifices in boundary management: Scale development and validation.* Manuscrit en préparation pour soumission au *Journal of Occupational and Organizational Psychology*."
+)
+
+number_pubs(
+    data_prep,
+    author_bold = author_bold,
+    language = language
+)
+```
+
+## Autres productions scientifiques (logiciel)
+
+```{r pubs_software, results = "asis"}
+data_software <- c(
+    "**Lavoie, C.-É.** (2024). *celflow*: Helpers for good practices in data preparation for psychology research (R package). Streamlines data cleaning, transformation, quality control, and SEM power simulation. GitHub: https://github.com/CharlesEtienneLavoie/celflow"
+)
+
+number_pubs(
+    data_software,
+    author_bold = author_bold,
+    language = language
+)
+```

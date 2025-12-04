@@ -94,7 +94,7 @@ headcolor <- "0a0a0a"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Publications parent, child=c('sections/publications.Rmd')}
+```{r Publications parent, child=c('fr/sections/publications.Rmd')}
 ```
 
 ```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = F}
