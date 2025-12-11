@@ -9,13 +9,28 @@
 ```{r Invited Talks, results = "asis"}
 nice_header(
     header = "Invited Talks",
-    header_alt = "Présentations invitées",
+    header_alt = "Conférences et ateliers invités",
     language = language
 )
 ```
 
 ```{r invited_talks, results = "asis"}
 data <- c(
+    "**Lavoie, C.-É.** (3 décembre 2025). *How people regulate their emotions and cope with work–family conflicts.* Conférence invitée présentée dans le cadre de la série de séminaires IPPE 2025, Institute for Positive Psychology and Education (IPPE), Australian Catholic University, Sydney, Australie.",
+    "**Lavoie, C.-É.** (18 novembre 2025). *Emotion regulation, role conflict, and experiences of incremental competence and novelty.* Séminaire invité du Centre for Transformative Work Design, Future of Work Institute, Curtin University, Perth, Australie.",
+    "**Lavoie, C.-É.** (4 juin 2025). *Automatisation des tableaux et figures pour les modèles d’équations structurelles (SEM) avec R (ggplot2 et nice_table).* Conférence invitée dans le cadre du cours PSY7109 (Été), Département de psychologie, Université du Québec à Montréal (UQAM), Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (23 mai 2025). *Introduction to R and data preparation/cleaning with R.* Atelier de formation de trois heures présenté dans la même série, Département de psychologie, UQAM, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (16 mai 2025). *Introduction to REDCap: A new alternative for data collection in research.* Atelier de formation de trois heures présenté dans la même série, Département de psychologie, UQAM, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (9 mai 2025). *Making smart use of Qualtrics: Best practices to ensure data quality.* Atelier de formation de trois heures présenté dans le cadre de la série estivale « Ateliers sur la collecte et la préparation de données pour la recherche », Département de psychologie, Université du Québec à Montréal (UQAM), Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (7 avril 2025). *Introduction to item response theory (IRT): Fundamental concepts and interactive exploration.* Présentation orale dans le cours PSY7104-40 « Méthodes d’observation directe et indirecte » (enseignante : Liesette Brunson), Département de psychologie, UQAM, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (20 février 2025). *Coping with role conflicts: Development and validation of a coping scale.* Présentation de 90 minutes dans le cours PSY7104-40 « Méthodes d’observation directe et indirecte » (enseignante : Liesette Brunson), Département de psychologie, UQAM, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (février 2025). *Introduction à la théorie de l’autodétermination.* Conférence invitée au Département de psychologie, Collège Bois-de-Boulogne, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.**, & Robillard, È. (29 octobre 2024). *Capitalizing on our strengths at work: An assessment tool.* Présentation orale d’une heure dans le cadre du cours « Psychométrie des caractéristiques individuelles potentielles et dynamiques (PSY9530) », Département de psychologie, Université du Québec à Montréal (UQAM), Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (10 mai 2024). *Structural equation modeling with R.* Atelier de trois heures présenté dans la même série, Département de psychologie, UQAM, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (9 mai 2024). *Data preparation and basic assumption checking with R.* Atelier de trois heures présenté dans la même série, Département de psychologie, UQAM, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (9 mai 2024). *Making smart use of Qualtrics for effective data collection.* Atelier de trois heures présenté dans le cadre de la série « Ateliers de statistiques », Département de psychologie, Université du Québec à Montréal (UQAM), Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (19 octobre 2023). *Conférence sur la psychologie du travail et des organisations.* Conférence invitée au Département de psychologie, Collège Bois-de-Boulogne, Montréal (Québec), Canada (en ligne).",
+    "**Lavoie, C.-É.** (23 novembre 2022). *Using Qualtrics in research: Introduction and best practices.* Atelier de formation de trois heures présenté pour le Département de psychologie, Université du Québec à Montréal (UQAM), Montréal (Québec), Canada.",
     "Lavoie, C-E. (2017). *Gérer le stress pour s'épanouir dans le programme de danse*. Atelier présenté à la Journée de promotion de la réussite étudiante du programme de danse, CÉGEP Saint-Laurent, Montréal, Canada.",
     "Lavoie, C-E. (2017). *Gérer le stress pour favoriser le bien-être dans un contexte de promotion de la santé*. Atelier présenté au Congrès de recertification des entraîneurs - YMCA du Québec, Montréal, Canada.",
     "Lavoie, C-E. (2015, 2016, & 2017). *Gérer le stress pour s'épanouir au collégial*. Ateliers présentés lors des cérémonies d'accueil des nouveaux étudiants au Collège de Maisonneuve, Montréal, Canada."
