@@ -96,6 +96,9 @@ headcolor <- "0a0a0a"
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
+```{r Professional Development parent, child=c('sections/professional_development.Rmd')}
+```
+
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 

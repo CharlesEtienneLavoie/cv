@@ -1,0 +1,17 @@
+# Professional Development and Advanced Methods Training
+
+```{r professional dev}
+tribble(
+    ~role, ~company, ~loc, ~dates, ~details,
+    "Curran-Bauer Analytics – Longitudinal Structural Equation Modeling", "Online short course (5 days)", "Completed 2024", "", "Intensive five-day course on longitudinal SEM, including growth curve models, cross-lagged models, and related advanced topics. Instructors: Daniel J. Bauer & Patrick J. Curran.",
+    "Curran-Bauer Analytics – Introduction to Structural Equation Modeling", "Online short course (3 days)", "Completed 2023", "", "Intensive three-day course on the fundamentals of structural equation modeling (SEM). Instructors: Daniel J. Bauer & Patrick J. Curran.",
+    "Ongoing advanced statistics mentoring", "Department of Psychology, Université du Québec à Montréal (UQAM)", "Montreal, QC, Canada", "2023 – present", "Quasi-weekly one-on-one mentoring with the department’s statistician focused on structural equation modeling, multilevel modeling, longitudinal designs, and complex psychometrics, extending beyond formal coursework."
+) %>%
+    detailed_entries(
+        role,
+        dates,
+        company,
+        loc,
+        details
+    )
+```
