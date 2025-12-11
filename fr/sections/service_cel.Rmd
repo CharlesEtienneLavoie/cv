@@ -5,78 +5,71 @@
 
 ```{r Service, results = "asis"}
 nice_header(
-    header = "Academic Service",
-    header_alt = "Service académique",
+    header = "Academic and Community Service",
+    header_alt = "Implication académique et communautaire",
     language = language
 )
 ```
 
-```{r service_fr}
-data <- bind_rows(
+```{r service_fr_cel}
+data_service_fr <- bind_rows(
     tibble(
-        what = "Représentant étudiant",
-        when = "2016-2022",
-        role = "Comité de programme de doctorat en psychologie",
-        where = "Université du Québec à Montréal",
-        URL = "",
-        details = c("Représentant étudiant")
+        what = "Département de psychologie, Université du Québec à Montréal (UQAM)",
+        when = "2015/09 – 2016/09",
+        role = "Représentant étudiant – Comité de programme de psychologie",
+        where = "Montréal (Québec), Canada",
+        details = c("Représentant des étudiants de premier cycle au comité de programme de psychologie, participation aux discussions sur le programme et le curriculum.")
     ),
     tibble(
-        what = "Représentant étudiant",
-        when = "2013-2015",
-        role = "Comité de programme de sciences humaines",
-        where = "Collège de Maisonneuve",
-        URL = "",
-        details = c("Représentant étudiant")
+        what = "Collège de Maisonneuve",
+        when = "2014/01 – 2015/09",
+        role = "Représentant étudiant – Comité de programme des sciences humaines",
+        where = "Montréal (Québec), Canada",
+        details = c("Représentant étudiant au comité de programme des sciences humaines, participation aux délibérations sur le développement du programme et les besoins des étudiants.")
     ),
     tibble(
-        what = "Assistant pédagogique",
-        when = "2013-2015",
-        role = "Association étudiante",
-        where = "Collège de Maisonneuve",
-        URL = "",
-        details = c("Assistant pédagogique")
+        what = "Collège de Maisonneuve",
+        when = "2014/09 – 2015/05",
+        role = "Adjoint à la pédagogie – Association étudiante",
+        where = "Montréal (Québec), Canada",
+        details = c("Soutien à l’association étudiante pour les initiatives pédagogiques et les activités visant à améliorer l’expérience académique.")
     ),
     tibble(
-        what = "Représentant étudiant",
-        when = "2013-2015",
-        role = "Commission des études",
-        where = "Collège de Maisonneuve",
-        URL = "",
-        details = c("Représentant étudiant")
+        what = "Collège de Maisonneuve",
+        when = "2014/09 – 2015/05",
+        role = "Représentant étudiant – Commission des études",
+        where = "Montréal (Québec), Canada",
+        details = c("Représentant étudiant à la Commission des études, participation à la gouvernance académique et aux discussions sur les politiques.")
     ),
     tibble(
-        what = "Administrateur",
-        when = "2013-2015",
-        role = "Coopérative étudiante",
-        where = "Collège de Maisonneuve",
-        URL = "",
-        details = c("Administrateur")
+        what = "Collège de Maisonneuve",
+        when = "2013/09 – 2015/05",
+        role = "Administrateur – Coopérative étudiante",
+        where = "Montréal (Québec), Canada",
+        details = c("Membre du conseil d’administration de la coopérative étudiante, impliqué dans les décisions sur les services offerts aux étudiants.")
     ),
     tibble(
-        what = "Animateur",
-        when = "2013-2015",
-        role = "Projet 'l'été-rature'",
-        where = "Commission scolaire Marguerite-Bourgeois, Montréal",
-        URL = "",
-        details = c("Animateur")
+        what = "Commission scolaire Marguerite-Bourgeois",
+        when = "2011/06 – 2014/08",
+        role = "Animateur – Projet « L’été-rature »",
+        where = "Montréal (Québec), Canada",
+        details = c("Animateur pour le projet « L’été-rature », soutien aux jeunes par des activités de lecture et d’écriture durant la période estivale.")
     ),
     tibble(
-        what = "Représentant adolescent",
-        when = "2013-2015",
-        role = "Conseil des représentants élus",
-        where = "Forum jeunesse de l'île de Montréal",
-        URL = "",
-        details = c("Représentant adolescent")
+        what = "Commission scolaire Marguerite-Bourgeois",
+        when = "2011/05 – 2013/04",
+        role = "Représentant des élèves du niveau secondaire",
+        where = "Montréal (Québec), Canada",
+        details = c("Représentant élu des élèves du niveau secondaire à la commission scolaire, porte-parole des préoccupations des élèves lors de consultations et de rencontres.")
+    ),
+    tibble(
+        what = "Forum jeunesse de l’île de Montréal",
+        when = "2011/09 – 2012/09",
+        role = "Représentant des adolescents – Conseil des représentants élus",
+        where = "Montréal (Québec), Canada",
+        details = c("Représentant des adolescents au conseil des représentants élus du Forum jeunesse de l’île de Montréal, participation aux initiatives et délibérations sur l’engagement jeunesse.")
     )
 )
 
-if (short) {
-    data <- data[c(1:4), ]
-}
-
-data <- data %>%
-    mutate(what = link(what, URL, color = "333333"))
-
-detailed_entries(data, role, when, what, where, details, .protect = FALSE)
+detailed_entries(data_service_fr, role, when, what, where, details, .protect = FALSE)
 ```
