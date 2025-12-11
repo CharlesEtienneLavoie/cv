@@ -3,6 +3,9 @@
 
 ```{r media_coverage, results = "asis"}
 data <- c(
+    "**Lavoie, C.-É.** (May 2022). *Remote work: Here to stay.* Guest expert interview on LCN News (TVA network), Montreal, QC, Canada (TV interview via Zoom).",
+    "Coulton, M. (16 January 2022). *Working from home is a nightmare for some Quebecers, a blessing for others.* CBC News – Montreal. Online news article quoting **Charles-Étienne Lavoie** as an expert on remote work and employee well-being. Available at: https://www.cbc.ca/news/canada/montreal/work-from-home-pandemic-1.6315579",
+    "**Lavoie, C.-É.** (2 January 2022). *Remote work: Here to stay.* Guest expert interview on LCN News (TVA network), Montreal, QC, Canada (TV interview via Zoom).",
     "Interview aired: (2016/9) *Experience of an engaged college student*, Salut Bonjour, TVA. Long version available in the Student Ambassadors section of the site: [lecegep.com](http://www.lecegep.com/fr/capsules-video)"
 )
 
