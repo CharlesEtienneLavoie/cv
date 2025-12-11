@@ -3,7 +3,7 @@
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Autres expériences de recherche
+# Autres expériences professionnelles
 
 
 ```{r experience_new, include = TRUE, eval=TRUE}
@@ -23,6 +23,14 @@ data <- rbind(
         with = "Vitrai, UQAM, Université du Québec à Montréal",
         where = "Montréal",
         details = c("Coordonnateur de laboratoire de recherche")
+    ),
+    tibble(
+        what = "Administrateur de tests",
+        URL = "",
+        when = "2020/09 - présent",
+        with = "Société de transport de Montréal (STM), division Dotation et planification de la main-d’œuvre",
+        where = "Montréal, QC, Canada",
+        details = c("Administration de tests standardisés dans les processus de sélection de personnel à la STM, en assurant le respect des procédures et en soutenant la dotation et la planification de la main-d’œuvre.")
     ),
     tibble(
         what = "Assistant de recherche, Assistance technique, Consultation statistique",

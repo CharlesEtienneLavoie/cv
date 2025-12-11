@@ -9,13 +9,13 @@ cat("\\pagebreak")
 
 ```{r Teaching, results = "asis"}
 nice_header(
-  header = "Teaching",
-  header_alt = "Enseignement",
+  header = "Teaching Experience and Supervision",
+  header_alt = "Expériences d’enseignement et de supervision",
   language = language
 )
 ```
 
-```{r teaching}
+```{r teaching_university}
 data <- rbind(
   tibble(
     what = "Lecturer - ORH3000: Applied Research Methods in Human Resources Management",
@@ -28,27 +28,99 @@ data <- rbind(
     )
   ),
   tibble(
-    what = "Teaching Assistant",
-    when = "2020/9 - 2024/5",
-    with = "UQAM, Department of Psychology",
-    where = "Montreal",
-    details = c("Teaching Assistant for various courses")
+    what = "Teaching Assistant - Sensibilisation aux pratiques de la psychologie",
+    when = "2020/09 - 2024/09",
+    with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
+    where = "Montreal, QC, Canada",
+    details = c("Teaching assistant for the undergraduate course Sensibilisation aux pratiques de la psychologie (introduction to psychological practice and professional issues).")
   ),
   tibble(
-    what = "Animator, Teacher and Coach",
-    when = "2013 - 2020",
-    with = "YMCA, UQAM, Commission scolaire Marguerite-Bourgeois, Collège de Maisonneuve, etc.",
-    where = "Montreal",
-    details = c("Animator, Teacher and Coach")
+    what = "Teaching Assistant - Psychologie du travail et des organisations (Work and Organizational Psychology)",
+    when = "2019/01 - 2019/05",
+    with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
+    where = "Montreal, QC, Canada",
+    details = c("Teaching assistant for the course Psychologie du travail et des organisations (work and organizational psychology).")
   ),
   tibble(
-    what = "Test Administrator",
-    when = "2020/9 - ongoing",
-    with = "Société de transport de Montréal (STM), Division - Dotation et Planification de la main-d'oeuvre",
-    where = "Montreal",
-    details = c("Test Administrator")
+    what = "Teaching Assistant - ADM 9944: Work, Life and Career: Contemporary Identities",
+    when = "2025/09 - 2025/12 (Fall 2025)",
+    with = "Joint PhD in Administration program (UQAM-HEC Montréal-Concordia-McGill), ESG UQAM",
+    where = "Montreal, QC, Canada",
+    details = c("Teaching assistant for a doctoral-level seminar on work, life, and career identities.")
   )
 )
 
 detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```
+
+\textbf{Supervision and mentoring}
+
+```{r teaching_supervision}
+data_supervision <- tibble(
+  what = "Immediate Supervisor - Honours thesis in psychology",
+  when = "2024",
+  with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
+  where = "Montreal, QC, Canada",
+  details = c("\\textbf{Adu, C.} (2024). \\textit{Balance in play: Development of a scale to assess boundary management among student-athletes.} Honours thesis, B.A. in Psychology, Université du Québec à Montréal. Role: immediate supervisor (formal supervisor: Professor Nathalie Houlfort).")
+)
+
+detailed_entries(data_supervision, with, when, what, where, details, .protect = FALSE)
+```
+
+\textbf{Other teaching, coaching, and facilitation}
+
+```{r teaching_other}
+data_other <- rbind(
+  tibble(
+    what = "Animator - SCORE program",
+    when = "2018/09 - 2020/03",
+    with = "UQAM Sports Centre",
+    where = "Montreal, QC, Canada",
+    details = c("Led workshops and activities in the SCORE program at the UQAM Sports Centre.")
+  ),
+  tibble(
+    what = "Weightroom Supervisor and Consultant",
+    when = "2014/09 - 2020/03",
+    with = "YMCA of Quebec, Downtown Montreal branch",
+    where = "Montreal, QC, Canada",
+    details = c("Weightroom supervisor, provided one-on-one consultations for health behavior/exercise adherence, and supervised interns.")
+  ),
+  tibble(
+    what = "Tutor",
+    when = "2012/01 - 2017/06",
+    with = "Marguerite-Bourgeois School Board",
+    where = "Montreal, QC, Canada",
+    details = c("Provided one-on-one academic tutoring to elementary-level students.")
+  ),
+  tibble(
+    what = "Dance Troupe Coach",
+    when = "2016/01 - 2017/04",
+    with = "Collège de Maisonneuve",
+    where = "Montreal, QC, Canada",
+    details = c("Coached and choreographed for a college-level dance troupe.")
+  ),
+  tibble(
+    what = "Sports Coach",
+    when = "2014/01 - 2016/09",
+    with = "Marguerite-Bourgeois School Board",
+    where = "Montreal, QC, Canada",
+    details = c("Self-defense and basketball instructor for elementary school extracurricular programs.")
+  ),
+  tibble(
+    what = "Latin Dance Instructor",
+    when = "2013/01 - 2016/09",
+    with = "Arriba Dance Studio",
+    where = "Montreal, QC, Canada",
+    details = c("Instructed Latin dance classes for adults and youth.")
+  ),
+  tibble(
+    what = "Animator - Support Program, École montréalaise pour tous",
+    when = "2013/01 - 2014/05",
+    with = "Montreal",
+    where = "Montreal, QC, Canada",
+    details = c("Led support and animation activities as part of the “École montréalaise pour tous” program.")
+  )
+)
+
+detailed_entries(data_other, with, when, what, where, details, .protect = FALSE)
 ```

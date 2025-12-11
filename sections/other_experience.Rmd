@@ -3,7 +3,7 @@
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Other Research Experience
+# Other Professional Experience
 
 
 ```{r experience_new, include = TRUE, eval=TRUE}
@@ -23,6 +23,14 @@ data <- rbind(
     with = "Vitrai, UQAM, Université du Québec à Montréal",
     where = "Montreal",
     details = c("Research Laboratory Coordinator")
+  ),
+  tibble(
+    what = "Test Administrator",
+    URL = "",
+    when = "2020/09 - ongoing",
+    with = "Société de transport de Montréal (STM), Division - Staffing and Workforce Planning",
+    where = "Montreal, QC, Canada",
+    details = c("Administered standardized tests in personnel selection processes at STM, ensuring standardized procedures and supporting staffing and workforce planning.")
   ),
   tibble(
     what = "Research Assistant, Technical Assistance, Statistical Consulting",
