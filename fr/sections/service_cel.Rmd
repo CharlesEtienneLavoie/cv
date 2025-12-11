@@ -11,6 +11,16 @@ nice_header(
 )
 ```
 
+**Service éditorial et évaluation par les pairs**
+
+*Évaluateur ad hoc (évaluation par les pairs en double anonymat)*
+  ~ Revues :
+  ~ • Canadian Journal of Behavioural Science
+  ~ • Human Relations
+  ~ • Motivation and Emotion
+  ~ • Journal of Management Studies
+  ~ • Journal of Sport & Exercise Psychology
+
 ```{r service_fr_cel}
 data_service_fr <- bind_rows(
     tibble(

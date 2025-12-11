@@ -94,6 +94,9 @@ headcolor <- "0a0a0a"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
+```{r Internships parent, child=c('fr/sections/internships.Rmd')}
+```
+
 ```{r Publications parent, child=c('fr/sections/publications.Rmd')}
 ```
 
@@ -145,4 +148,6 @@ headcolor <- "0a0a0a"
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}
 ```
+
+*Ce CV est généré à partir d’une source R Markdown reproductible utilisant le package {vitae}. Code source : https://github.com/CharlesEtienneLavoie/cv*
 

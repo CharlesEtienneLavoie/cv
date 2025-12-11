@@ -1,0 +1,14 @@
+
+# Stages de recherche et séjours académiques
+
+```{r internships_fr, results = "asis"}
+data_internships_fr <- tibble(
+    what = "**Stagiaire de recherche au doctorat – Future of Work Institute**",
+    when = "octobre 2025 – février 2026",
+    role = "Future of Work Institute, Curtin University",
+    where = "Perth, Australie-Occidentale",
+    details = c("Stage de recherche au doctorat sous la supervision de la professeure Marylène Gagné au Future of Work Institute, sur des projets en psychologie du travail et des organisations.")
+)
+
+detailed_entries(data_internships_fr, role, when, what, where, details, .protect = FALSE)
+```

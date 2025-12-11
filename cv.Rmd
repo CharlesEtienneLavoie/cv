@@ -80,6 +80,9 @@ headcolor <- "0a0a0a"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
+```{r Internships parent, child=c('sections/internships.Rmd')}
+```
+
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 ```
 

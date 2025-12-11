@@ -1,0 +1,14 @@
+
+# Research Internships and Visiting Positions
+
+```{r internships, results = "asis"}
+data_internships <- tibble(
+    what = "Doctoral Research Intern – Future of Work Institute",
+    when = "October 2025 – February 2026",
+    role = "Future of Work Institute, Curtin University",
+    where = "Perth, Western Australia",
+    details = c("Doctoral research internship under the supervision of Professor Marylène Gagné, focusing on work and organizational psychology research at the Future of Work Institute.")
+)
+
+detailed_entries(data_internships, role, when, what, where, details)
+```

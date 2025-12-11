@@ -12,6 +12,16 @@ nice_header(
 )
 ```
 
+**Editorial and peer-review service**
+
+*Ad hoc reviewer (anonymous peer review)*
+  ~ Journals:
+  ~ • Canadian Journal of Behavioural Science
+  ~ • Human Relations
+  ~ • Motivation and Emotion
+  ~ • Journal of Management Studies
+  ~ • Journal of Sport & Exercise Psychology
+
 ```{r service_en}
 data_service <- bind_rows(
   tibble(
