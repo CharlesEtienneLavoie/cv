@@ -1,0 +1,147 @@
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Expériences de recherche et consultation
+
+## Leadership et coordination de recherche
+
+```{r consulting_leadership_fr, include = TRUE, eval=TRUE}
+leadership_data <- rbind(
+    tibble(
+        what = "Président et cofondateur -- nQuerio",
+        URL = "",
+        when = "2022/9 - présent",
+        with = "nQuerio (plateforme logicielle pour la recherche)",
+        where = "Montréal (Québec), Canada",
+        details = c(
+            "Cofondateur et responsable du développement de nQuerio, une plateforme logicielle conçue par et pour les chercheurs universitaires.",
+            "Collaboration avec des équipes de recherche à l'international (p. ex. Australian Catholic University, Columbia University, Université McGill, UQAM, UQTR) pour offrir de la consultation en statistiques et méthodologie, des solutions de sécurité et de gestion des données, du soutien logistique et technologique à la recherche, ainsi que des outils alignés sur les pratiques de science ouverte."
+        )
+    ),
+    tibble(
+        what = "Coordonnateur de laboratoire de recherche",
+        URL = "",
+        when = "2022 - 2024/12",
+        with = "Vitrai, UQAM, Université du Québec à Montréal",
+        where = "Montréal",
+        details = c("Coordonnateur de laboratoire de recherche")
+    )
+)
+
+detailed_entries(leadership_data, with, when, what, where, details, .protect = FALSE)
+```
+
+## Consultation en recherche
+
+```{r consulting_roles_fr, include = TRUE, eval=TRUE}
+consulting_data <- rbind(
+    tibble(
+        what = "Consultant en statistiques -- Département de psychologie",
+        URL = "",
+        when = "2024 - 2025",
+        with = "Université du Québec à Montréal (UQAM)",
+        where = "Montréal (Québec), Canada",
+        details = c("Consultation quantitative avancée pour plusieurs laboratoires en psychologie du travail et des organisations, en psychologie de l'éducation et en psychologie du développement : plan d'étude et analyses de puissance, pratiques de science ouverte, gestion de grandes bases de données, analyses avancées (SEM, modèles longitudinaux et multiniveaux, etc.), soutien en R et accompagnement pour la rédaction des sections Méthode et Résultats.")
+    ),
+    tibble(
+        what = "Consultant en statistiques -- Départements d'éducation et des sciences de l'activité physique",
+        URL = "",
+        when = "2024 - 2025",
+        with = "Université du Québec à Trois-Rivières (UQTR)",
+        where = "Trois-Rivières (Québec), Canada",
+        details = c("Consultation statistique pour des équipes de recherche en éducation et en sciences de l'activité physique : plan de recherche, analyses de puissance, gestion des données, modélisation avancée (SEM, modèles multiniveaux et longitudinaux) et soutien pour l'interprétation et la présentation des résultats.")
+    ),
+    tibble(
+        what = "Consultant en méthodes d'enquête -- Faculté des sciences humaines",
+        URL = "",
+        when = "février 2024",
+        with = "Université du Québec à Montréal (UQAM)",
+        where = "Montréal (Québec), Canada",
+        details = c("Mandat de consultation de courte durée pour concevoir et implanter un questionnaire en ligne dans Qualtrics : structure du questionnaire, logiques de branchement, prétest et mise en place de la collecte de données pour une enquête à l'échelle de la faculté.")
+    ),
+    tibble(
+        what = "Consultant en diffusion numérique de la recherche et sites Web -- Professeure Ariane Ollier-Malaterre",
+        URL = "",
+        when = "2023 - présent",
+        with = "ESG UQAM",
+        where = "Montréal (Québec), Canada",
+        details = c("Conception, mise en place et maintenance du CV académique en ligne de la professeure, du site Web du groupe de recherche INTWAF (International Network on Technology, Work, and Family) et du site de l'équipe de la Chaire de recherche du Canada sur la régulation numérique au travail et dans la vie : architecture de l'information, intégration de contenu et optimisation pour la mise en valeur des activités et productions de recherche.")
+    ),
+    tibble(
+        what = "Consultant en statistiques -- ESG UQAM",
+        URL = "",
+        when = "2021 - présent",
+        with = "UQAM, Département de psychologie et École des sciences de la gestion (ESG)",
+        where = "Montréal",
+        details = c(
+            "Gestion et documentation de bases de données volumineuses et complexes pour des projets de recherche à l'ESG UQAM.",
+            "Réalisation d'analyses statistiques avancées (modèles multivariés, modèles d'équations structurelles, etc.) et interprétation des résultats pour les équipes de recherche.",
+            "Explication des concepts statistiques et des résultats aux professeur·e·s et étudiant·e·s gradué·e·s, soutien à la rédaction des sections Méthode et Résultats."
+        )
+    ),
+    tibble(
+        what = "Consultant en analyse statistique et psychométrique",
+        URL = "",
+        when = "2019/11 - 2019/12",
+        with = "Gauthier Murtada et Partenaires",
+        where = "Montréal",
+        details = c("Consultation avancée en statistiques et en psychométrie pour des projets de recherche professoraux (développement et validation d'échelles, analyses quantitatives complexes, etc.).")
+    )
+)
+
+detailed_entries(consulting_data, with, when, what, where, details, .protect = FALSE)
+```
+
+## Assistants de recherche
+
+```{r research_assistantships_fr, include = TRUE, eval=TRUE}
+ra_data <- rbind(
+    tibble(
+        what = "Assistant de recherche -- Laboratoire de recherche sur le comportement organisationnel",
+        URL = "",
+        when = "2017/09 - 2018/09 ; 2021/03 - 2021/05",
+        with = "Département de psychologie, Université du Québec à Montréal (UQAM)",
+        where = "Montréal (Québec), Canada",
+        details = c("Assistant de recherche au laboratoire de la professeure Nathalie Houlfort sur des projets en psychologie du travail et des organisations (préparation de questionnaires, collecte et gestion de données, analyses quantitatives préliminaires).")
+    ),
+    tibble(
+        what = "Assistant de recherche -- Laboratoire de recherche sur le comportement social",
+        URL = "",
+        when = "2016/10 - 2017/09",
+        with = "Département de psychologie, Université du Québec à Montréal (UQAM)",
+        where = "Montréal (Québec), Canada",
+        details = c("Assistant de recherche au laboratoire du professeur Robert J. Vallerand sur des projets portant notamment sur la motivation et le comportement social.")
+    ),
+    tibble(
+        what = "Assistant de recherche -- Institut de recherche sur l'intégration professionnelle des immigrants (IRIPI)",
+        URL = "",
+        when = "2015/02 - 2015/12",
+        with = "Collège de Maisonneuve",
+        where = "Montréal (Québec), Canada",
+        details = c("Assistant de recherche sous la supervision de la docteure Monica Schlobach sur des projets liés à l'intégration professionnelle des personnes immigrantes.")
+    )
+)
+
+detailed_entries(ra_data, with, when, what, where, details, .protect = FALSE)
+```
+
+## Groupes et équipes de recherche
+
+```{r research_networks_fr, include = TRUE, eval=TRUE}
+network_data <- rbind(
+    tibble(
+        what = "Membre -- Groupe de recherche INTWAF (Intersection of Work, Family and Technology)",
+        when = "février 2021 - présent",
+        with = "ESG UQAM, Montréal (Québec), Canada"
+    ),
+    tibble(
+        what = "Membre -- Équipe de la Chaire de recherche du Canada sur la régulation numérique au travail et dans la vie",
+        when = "2023 - présent",
+        with = "ESG UQAM, Montréal (Québec), Canada"
+    )
+)
+
+brief_entries(network_data, what, when, with)
+```

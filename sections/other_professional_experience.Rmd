@@ -1,0 +1,28 @@
+
+# Other Professional Experience
+
+```{r other_prof_experience, include = TRUE, eval=TRUE}
+prof_data <- rbind(
+    tibble(
+        what = "Test Administrator",
+        URL = "",
+        when = "2020/09 - ongoing",
+        with = "Société de transport de Montréal (STM), Division - Staffing and Workforce Planning",
+        where = "Montreal, QC, Canada",
+        details = c("Administered standardized tests in personnel selection processes at STM, ensuring standardized procedures and supporting staffing and workforce planning.")
+    ),
+    tibble(
+        what = "Administrative Assistant (interim) -- Ethics Committee for Student Projects (CERPE)",
+        URL = "",
+        when = "September - October 2024",
+        with = "Faculty of Human Sciences, Université du Québec à Montréal (UQAM)",
+        where = "Montreal, QC, Canada",
+        details = c(
+            "Managed and responded to emails sent to the CERPE information inbox, including screening requests, providing first-line answers, and redirecting enquiries as needed.",
+            "Ensured continuity of service and up-to-date handling of the inbox during the temporary replacement of the regular staff member."
+        )
+    )
+)
+
+detailed_entries(prof_data, with, when, what, where, details, .protect = FALSE)
+```

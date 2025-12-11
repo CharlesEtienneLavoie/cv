@@ -1,0 +1,147 @@
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Research-Related Work and Consulting
+
+## Research leadership and coordination
+
+```{r consulting_leadership, include = TRUE, eval=TRUE}
+leadership_data <- rbind(
+    tibble(
+        what = "President and Co-Founder -- nQuerio",
+        URL = "",
+        when = "2022/9 - present",
+        with = "nQuerio (research software for researchers)",
+        where = "Montreal, QC, Canada",
+        details = c(
+            "Co-founded and lead the development of nQuerio, a research software platform designed by and for academic researchers.",
+            "Collaborate with research teams around the world (e.g., Australian Catholic University, Columbia University, McGill University, UQAM, UQTR) to provide statistical and methodological consulting, data security and handling solutions, research logistics and technology support, and tools aligned with open science practices."
+        )
+    ),
+    tibble(
+        what = "Research Laboratory Coordinator",
+        URL = "",
+        when = "2022 - 2024/12",
+        with = "Vitrai, UQAM, Université du Québec à Montréal",
+        where = "Montreal",
+        details = c("Research Laboratory Coordinator")
+    )
+)
+
+detailed_entries(leadership_data, with, when, what, where, details, .protect = FALSE)
+```
+
+## Research consulting
+
+```{r consulting_roles, include = TRUE, eval=TRUE}
+consulting_data <- rbind(
+    tibble(
+        what = "Statistical Consultant -- Department of Psychology",
+        URL = "",
+        when = "2024 - 2025",
+        with = "Université du Québec à Montréal (UQAM)",
+        where = "Montreal, QC, Canada",
+        details = c("Provided advanced quantitative consulting for multiple labs in work/organizational, educational, and developmental psychology: study design and power analysis, open science practices, large database management, advanced data analysis (SEM, longitudinal and multilevel models, etc.), R support, and guidance on writing Method and Results sections.")
+    ),
+    tibble(
+        what = "Statistical Consultant -- Departments of Education and Physical Activity Sciences",
+        URL = "",
+        when = "2024 - 2025",
+        with = "Université du Québec à Trois-Rivières (UQTR)",
+        where = "Trois-Rivières, QC, Canada",
+        details = c("Statistical consulting for research teams in education and physical activity sciences: study design, power analysis, data management, advanced modeling (e.g., SEM, multilevel and longitudinal models), and support in interpreting and reporting quantitative results.")
+    ),
+    tibble(
+        what = "Survey Methods Consultant -- Faculty of Human Sciences",
+        URL = "",
+        when = "February 2024",
+        with = "Université du Québec à Montréal (UQAM)",
+        where = "Montreal, QC, Canada",
+        details = c("Short-term consulting contract to design and implement an online Qualtrics survey: questionnaire structure, branching logic, pilot testing, and data-collection setup for a faculty-wide survey.")
+    ),
+    tibble(
+        what = "Digital Scholarship and Research Website Consultant -- Professor Ariane Ollier-Malaterre",
+        URL = "",
+        when = "2023 - present",
+        with = "ESG UQAM",
+        where = "Montreal, QC, Canada",
+        details = c("Designed, implemented, and maintained the professor's online academic CV, the INTWAF research group website (International Network on Technology, Work, and Family), and the Canada Research Chair in Digital Regulation at Work and in Life team website, including information architecture, content integration, and optimization for showcasing research activities and outputs.")
+    ),
+    tibble(
+        what = "Statistical Consultant -- ESG UQAM",
+        URL = "",
+        when = "2021 - present",
+        with = "UQAM, Department of Psychology and École Supérieure de Gestion (EGS)",
+        where = "Montreal",
+        details = c(
+            "Managed and documented large and complex datasets for research projects at ESG UQAM.",
+            "Performed advanced statistical analyses (e.g., multivariate models, structural equation modeling) and interpreted results for research teams.",
+            "Explained statistical concepts and results to faculty and graduate students, and supported them in writing quantitative Method and Results sections."
+        )
+    ),
+    tibble(
+        what = "Consultant in Statistical and Psychometric Analysis",
+        URL = "",
+        when = "2019/11 - 2019/12",
+        with = "Gauthier Murtada and Partenaires",
+        where = "Montreal",
+        details = c("Provided advanced statistical and psychometric consulting for faculty research projects (e.g., scale development, validation, and complex quantitative analyses).")
+    )
+)
+
+detailed_entries(consulting_data, with, when, what, where, details, .protect = FALSE)
+```
+
+## Research assistantships
+
+```{r research_assistantships, include = TRUE, eval=TRUE}
+ra_data <- rbind(
+    tibble(
+        what = "Research Assistant -- Organizational Behavior Research Laboratory",
+        URL = "",
+        when = "2017/09 - 2018/09; 2021/03 - 2021/05",
+        with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
+        where = "Montreal, QC, Canada",
+        details = c("Research assistant in Professor Nathalie Houlfort's lab on work and organizational psychology projects (e.g., survey preparation, data collection and management, preliminary quantitative analyses).")
+    ),
+    tibble(
+        what = "Research Assistant -- Social Behavior Research Laboratory",
+        URL = "",
+        when = "2016/10 - 2017/09",
+        with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
+        where = "Montreal, QC, Canada",
+        details = c("Research assistant in Professor Robert J. Vallerand's lab on projects related to motivation and social behavior.")
+    ),
+    tibble(
+        what = "Research Assistant -- Institut de recherche sur l'intégration professionnelle des immigrants (IRIPI)",
+        URL = "",
+        when = "2015/02 - 2015/12",
+        with = "Collège de Maisonneuve",
+        where = "Montreal, QC, Canada",
+        details = c("Research assistant under Dr. Monica Schlobach on projects related to the professional integration of immigrants.")
+    )
+)
+
+detailed_entries(ra_data, with, when, what, where, details, .protect = FALSE)
+```
+
+## Research networks and teams
+
+```{r research_networks, include = TRUE, eval=TRUE}
+network_data <- rbind(
+    tibble(
+        what = "Member -- INTWAF Research Group (Intersection of Work, Family and Technology)",
+        when = "February 2021 - present",
+        with = "ESG UQAM, Montreal, QC, Canada"
+    ),
+    tibble(
+        what = "Member -- Canada Research Chair in Digital Regulation at Work and in Life (research team)",
+        when = "2023 - present",
+        with = "ESG UQAM, Montreal, QC, Canada"
+    )
+)
+
+brief_entries(network_data, what, when, with)
+```

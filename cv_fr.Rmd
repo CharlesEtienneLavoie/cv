@@ -103,12 +103,16 @@ headcolor <- "0a0a0a"
 ```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = F}
 ```
 
+```{r Awards parent, child=c('fr/sections/awards.Rmd')}
+```
+
 ```{r Grants parent, child=c('sections/grant.Rmd'), eval=F}
 ```
 
+```{r Research Experience parent, child=c('fr/sections/research_experience.Rmd')}
+```
 
-
-```{r Awards parent, child=c('fr/sections/awards.Rmd')}
+```{r Software parent, child=c('fr/sections/software.Rmd'), eval=F}
 ```
 
 ```{r Professional Development parent, child=c('fr/sections/professional_development.Rmd')}
@@ -126,24 +130,25 @@ headcolor <- "0a0a0a"
 ```{r Conference posters parent, child=c('fr/sections/conference_posters_cel.Rmd'), eval = FALSE}
 ```
 
-```{r Software parent, child=c('fr/sections/software.Rmd'), eval=F}
+```{r Academic service parent, child=c('fr/sections/service_cel.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('fr/sections/service_cel.Rmd'), eval = !short}
+```{r Other Professional Experience parent, child=c('fr/sections/other_professional_experience.Rmd')}
 ```
 
 ```{r Media coverage parent, child=c('fr/sections/media_coverage_cel.Rmd'), eval = !short}
 ```
 
+```{r Varia parent, child=c('fr/sections/varia.Rmd')}
+```
+
+```{r Leadership parent, child=c('fr/sections/leadership.Rmd'), eval = F}
+```
+
 ```{r References parent, child=c('sections/references.Rmd'), eval = F}
 ```
 
-<!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
-
 ```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = F}
-```
-
-```{r Other experience parent, child=c('fr/sections/other_experience_cel.Rmd'), eval = TRUE}
 ```
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}

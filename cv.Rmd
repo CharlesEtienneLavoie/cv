@@ -89,14 +89,16 @@ headcolor <- "0a0a0a"
 ```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = F}
 ```
 
-\setlength{\parskip}{8pt}
+```{r Awards parent, child=c('sections/awards.Rmd')}
+```
 
 ```{r Grants parent, child=c('sections/grant.Rmd'), eval=F}
 ```
 
+```{r Research Experience parent, child=c('sections/research_experience.Rmd')}
+```
 
-
-```{r Awards parent, child=c('sections/awards.Rmd')}
+```{r Software parent, child=c('sections/software.Rmd'), eval=F}
 ```
 
 ```{r Professional Development parent, child=c('sections/professional_development.Rmd')}
@@ -114,30 +116,25 @@ headcolor <- "0a0a0a"
 ```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = FALSE}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd'), eval=F}
-```
-
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
+```{r Other Professional Experience parent, child=c('sections/other_professional_experience.Rmd')}
 ```
 
 ```{r Media coverage parent, child=c('sections/media_coverage.Rmd')}
 ```
 
-```{r References parent, child=c('sections/references.Rmd'), eval = F}
-```
-
-<!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
-
-```{r Other experience parent, child=c('sections/other_experience.Rmd')}
+```{r Varia parent, child=c('sections/varia.Rmd')}
 ```
 
 ```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = F}
 ```
 
-```{r Varia parent, child=c('sections/varia.Rmd')}
+```{r References parent, child=c('sections/references.Rmd'), eval = F}
+```
+
+```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
 ```
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}
