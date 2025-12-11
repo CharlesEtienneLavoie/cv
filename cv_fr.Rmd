@@ -117,7 +117,7 @@ headcolor <- "0a0a0a"
 ```{r Conference talks parent, child=c('fr/sections/conference_talks_cel.Rmd'), eval = !short}
 ```
 
-```{r Conference posters parent, child=c('fr/sections/conference_posters_cel.Rmd'), eval = !short}
+```{r Conference posters parent, child=c('fr/sections/conference_posters_cel.Rmd'), eval = FALSE}
 ```
 
 ```{r Software parent, child=c('fr/sections/software.Rmd'), eval=F}

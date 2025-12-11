@@ -1,19 +1,50 @@
 ```{r Conference Talks, results = "asis"}
 nice_header(
     header = "Conference Talks",
-    header_alt = "Communications orales",
+    header_alt = "Présentations dans des congrès",
     language = language
 )
 ```
 
+## Communications orales
+
 ```{r talks_data, results = "asis"}
 data <- c(
-    "Lavoie, C-E., & Vallerand, R.J. (2018). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation orale au Colloque annuel du Département de psychologie, UQAM, Montréal, QC, Canada.",
-    "Lavoie, C-E., & Vallerand, R.J. (2018). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation orale au Colloque des thèses de spécialisation, UQAM, Montréal, QC, Canada."
+    "Lefrançois, M., Sultan-Taïeb, H., **Lavoie, C.-É.**, Tchuindibi, L., Laberge, M., Major, M.-E., Messing, K., & Vallières, A. (juin 2025). *(De)valuing school support staff in Québec: The role of collaborative practices in coping with precarious working conditions.* Communication orale présentée au 2e Colloque international sur la santé au travail, « Does loving your job harm your health? », Université de Fribourg, Fribourg, Suisse.",
+    "Tchuidnibi, L., Lefrançois, M., Sultan-Taïeb, H., **Lavoie, C.-É.**, Laberge, M., Major, M.-E., Messing, K., Vallières, A., Gosselin, A., Labonté, J.-F., Leduc, J., Mahar, I., & Raby, J. (6 mai 2025). *We help each other but it’s heavy sometimes… Determinants of collaboration among school support staff in a predominantly female sector.* Communication présentée dans le symposium « Revealing blind spots in occupational health research to prevent social and gender inequalities and their effects on workers’ health », 92e congrès de l’ACFAS, Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.** (18 juin 2024). *Digital dialogue: Harnessing tech to transform research engagement.* Présentation éclair lors de l’atelier international inaugural de la Chaire de recherche du Canada sur la régulation numérique au travail et dans la vie, Université du Québec à Montréal (ESG UQAM), Montréal (Québec), Canada.",
+    "**Lavoie, C.-É.**, & Houlfort, N. (juin 2023). *Using episodes of work–family conflict to examine how coping and emotion regulation interact.* Communication rapide présentée au 8e congrès international sur la théorie de l’autodétermination (SDT 2023), Orlando (Floride), États-Unis.",
+    "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation orale au Colloque annuel du Département de psychologie, UQAM, Montréal, QC, Canada.",
+    "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation orale au Colloque des thèses de spécialisation, UQAM, Montréal, QC, Canada."
 )
 
 number_pubs(
     data,
+    author_bold = author_bold,
+    language = language
+)
+```
+
+## Présentations par affiche
+
+```{r posters_data, results = "asis"}
+data_posters <- c(
+    "Vallières, A., **Lavoie, C.-É.**, Waage, S., Bjorvatn, B., & Lefrançois, M. (septembre 2025). *Validation of the Bergen Shift Work Sleep Questionnaire in workers under split shift or early morning shift.* Présentation par affiche au congrès *World Sleep 2025*, Singapour.",
+    "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *La satisfaction des besoins psychologiques comme médiateur dans la relation entre la passion pour le travail et l'enrichissement travail-vie*. Présentation par affiche à la 10e Conférence internationale SELF.",
+    "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *La relation entre la passion pour le travail et les sous-dimensions de l'enrichissement travail-vie*. Présentation par affiche au congrès 2022 de la Société Québécoise pour la Recherche en Psychologie (SQRP).",
+    "Lavoie, C. É., Masson, R., Malchelosse, K., & Houlfort, N. (2021). *Effets du soutien à l'autonomie du superviseur sur l'équilibre travail-famille : Le rôle médiateur des évaluations cognitives*. Présentation par affiche au congrès 2021 de la Société Québécoise pour la Recherche en Psychologie (SQRP), conférence virtuelle.",
+    "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2021). *Passion et enrichissement inter-rôles : Un regard sur les travailleurs ayant deux rôles professionnels*. Présentation par affiche au congrès 2021 de la Société Québécoise pour la Recherche en Psychologie (SQRP), conférence virtuelle.",
+    "Masson, R., Lavoie, C. É., Malchelosse, K., & Houlfort, N. (2021). *Passion et performance de rôle : Un regard sur le rôle médiateur des besoins psychologiques*. Présentation par affiche au congrès 2021 de la Société Québécoise pour la Recherche en Psychologie (SQRP), conférence virtuelle.",
+    "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2019). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation par affiche à la 6e Conférence de l'Association internationale de psychologie positive (IPPA), Melbourne, Australie.",
+    "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2019). *Passion et émotions : Le rôle médiateur des évaluations cognitives*. Présentation par affiche à la 7e Conférence internationale sur la théorie de l'autodétermination, Egmond aan Zee, Pays-Bas.",
+    "Lavoie, C-E., Vallerand, R.J., & Verner-Filion, J. (2018). *Le rôle des évaluations cognitives comme médiateurs des relations passion-émotion*. Présentation par affiche au 35e anniversaire du Laboratoire de recherche sur le comportement social, Montréal, Canada.",
+    "Lavoie, C-E., & Vallerand, R.J. (2018). *Le rôle des évaluations cognitives comme médiateurs des relations passion-émotion*. Présentation par affiche à la 4e Conférence canadienne de psychologie positive, Toronto, Canada.",
+    "Lavoie, C-E., & Vallerand, R.J. (2018). *Le rôle des évaluations cognitives comme médiateurs des relations passion-émotion*. Présentation par affiche au 29e Congrès international de psychologie appliquée, Montréal, Canada.",
+    "Schlobach, M., Ostiguy, D., **Lavoie, C-E.**, et Figueroa Mendez, A. (2016). *Les étudiants comme producteurs d'instruments d'intervention : Innovation sociale au Collège de Maisonneuve*. Présentation par affiche au colloque de l'ARC dans le cadre du 84e Congrès de l'Acfas, Montréal, Canada."
+)
+
+number_pubs(
+    data_posters,
     author_bold = author_bold,
     language = language
 )

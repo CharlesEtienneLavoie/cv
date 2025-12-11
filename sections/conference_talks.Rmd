@@ -1,13 +1,19 @@
-```{r Conference Talks, results = "asis"}
+```{r Conference Presentations, results = "asis"}
 nice_header(
-  header = "Conference Talks",
-  header_alt = "Communications orales",
+  header = "Conference Presentations",
+  header_alt = "Présentations dans des congrès",
   language = language
 )
 ```
 
+## Oral presentations
+
 ```{r talks_data, results = "asis"}
 data <- c(
+  "Lefrançois, M., Sultan-Taïeb, H., **Lavoie, C.-É.**, Tchuindibi, L., Laberge, M., Major, M.-E., Messing, K., & Vallières, A. (June 2025). *(De)valuing school support staff in Québec: The role of collaborative practices in coping with precarious working conditions.* Paper presented at the 2nd International Colloquium on Occupational Health, *Does loving your job harm your health?*, University of Fribourg, Fribourg, Switzerland.",
+  "Tchuidnibi, L., Lefrançois, M., Sultan-Taïeb, H., **Lavoie, C.-É.**, Laberge, M., Major, M.-E., Messing, K., Vallières, A., Gosselin, A., Labonté, J.-F., Leduc, J., Mahar, I., & Raby, J. (6 May 2025). *We help each other but it’s heavy sometimes… Determinants of collaboration among school support staff in a predominantly female sector.* Paper presented in the symposium *Revealing blind spots in occupational health research to prevent social and gender inequalities and their effects on workers’ health*, 92nd ACFAS Congress, Montreal, QC, Canada.",
+  "**Lavoie, C.-É.** (18 June 2024). *Digital dialogue: Harnessing tech to transform research engagement.* Flash talk presented at the Inaugural International Workshop of the Canada Research Chair in Digital Regulation at Work and in Life, Université du Québec à Montréal (ESG UQAM), Montreal, QC, Canada.",
+  "**Lavoie, C.-É.**, & Houlfort, N. (June 2023). *Using episodes of work–family conflict to examine how coping and emotion regulation interact.* Rapid talk presented at the 8th International Self-Determination Theory Conference (SDT 2023), Orlando, FL, United States.",
   "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *Passion and emotions: The mediating role of cognitive appraisals*. Oral presentation at the Annual Colloquium of the Department of Psychology, UQAM, Montreal, QC, Canada.",
   "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *Passion and emotions: The mediating role of cognitive appraisals*. Oral presentation at the Colloquium of Specialization Theses, UQAM, Montreal, QC, Canada."
 )
@@ -18,4 +24,28 @@ number_pubs(
   language = language
 )
 ```
+
+## Poster presentations
+
+```{r posters_data, results = "asis"}
+data_posters <- c(
+  "Vallières, A., **Lavoie, C.-É.**, Waage, S., Bjorvatn, B., & Lefrançois, M. (September 2025). *Validation of the Bergen Shift Work Sleep Questionnaire in workers under split shift or early morning shift.* Poster presented at *World Sleep 2025*, Singapore.",
+  "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *Psychological Needs Satisfaction as a Mediator in the Relationship Between Passion for Work and Work-Life Enrichment*. Poster presentation at the Tenth SELF International Conference.",
+  "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *The relationship between passion for work and the subdimensions of work-life enrichment*. Poster presentation at the 2022 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP).",
+  "Lavoie, C. É., Masson, R., Malchelosse, K., & Houlfort, N. (2021). *Effects of supervisor autonomy support on work-family balance: The mediating role of cognitive appraisals*. Poster presentation at the 2021 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP), virtual conference.",
+  "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2021). *Passion and inter-role enrichment: A look at workers with two occupational roles*. Poster presentation at the 2021 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP), virtual conference.",
+  "Masson, R., Lavoie, C. É., Malchelosse, K., & Houlfort, N. (2021). *Passion and role performance: A look at the mediating role of psychological needs*. Poster presentation at the 2021 conference of the Société Québécoise pour la Recherche en Psychologie (SQRP), virtual conference.",
+  "**Lavoie, C-E.**, Vallerand, R.J., & Verner-Filion, J. (2019). *Passion and emotions: The mediating role of cognitive appraisals*. Poster presentation at the 6th International Positive Psychology Association (IPPA) Conference, Melbourne, Australia.",
+  "**Lavoie, C-E.**, Vallerand, R.J., & Verner-Filion, J. (2019). *Passion and emotions: The mediating role of cognitive appraisals*. Poster presentation at the 7th International Conference on Self-Determination Theory, Egmond aan Zee, Netherlands.",
+  "**Lavoie, C-E.**, Vallerand, R.J., & Verner-Filion, J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 35th Anniversary of the Social Behavior Research Laboratory, Montreal, Canada.",
+  "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 4th Canadian Conference on Positive Psychology, Toronto, Canada.",
+  "**Lavoie, C-E.**, & Vallerand, R.J. (2018). *The role of cognitive appraisals as mediators of the passion-emotion relationships*. Poster presentation at the 29th International Congress of Applied Psychology, Montreal, Canada.",
+  "Schlobach, M., Ostiguy, D., **Lavoie, C-E.**, and Figueroa Mendez, A. (2016). *Students as producers of intervention instruments: Social innovation at Collège de Maisonneuve*. Poster presentation at the ARC colloquium as part of the 84th Acfas Congress, Montreal, Canada."
+)
+
+number_pubs(
+  data_posters,
+  author_bold = author_bold,
+  language = language
+)
 ```
