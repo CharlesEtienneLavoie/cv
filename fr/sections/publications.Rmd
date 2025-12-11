@@ -22,7 +22,8 @@ number_pubs(
 ```{r pubs_review, results = "asis"}
 data_review <- c(
     "Conigrave, J. H., Bradshaw, E. L., **Lavoie, C.-É.**, Lee, K., & Ryan, R. M. (soumis). When alcohol fills the gap: Basic psychological need satisfaction and frustration predict hazardous drinking. Manuscrit soumis à *Psychology of Addictive Behaviors*.",
-    "Boutin, S., **Lavoie, C.-É.**, Martin-Storey, A., & Paquette, G. (soumis). Are gender-based attitudes associated with relational aggression in adolescence? Manuscrit soumis à la *Revue de psychoéducation*, section thématique sur les relations avec les pairs."
+    "Boutin, S., **Lavoie, C.-É.**, Martin-Storey, A., & Paquette, G. (soumis). Are gender-based attitudes associated with relational aggression in adolescence? Manuscrit soumis à la *Revue de psychoéducation*, section thématique sur les relations avec les pairs.",
+    "Afota, M.-C., Ollier-Malaterre, A., Russo, M., Chung, H., Abendroth, A., Desjardins, C., Jaga, A., Kost, D., **Lavoie, C.-É.**, Leshchenko, O., Levesque, J., Lupu, I., Mabaso, B. P., Morandin, G., Nilsen, W., Nordberg, T., Pellerin, S., Poggenpoel, G. H., Rostami, A., & Seo, H. (soumis). *Why work disconnection fails: A digital detox experiment among academics.* Manuscrit soumis à *New Technology, Work and Employment*."
 )
 
 number_pubs(
@@ -37,7 +38,6 @@ number_pubs(
 ```{r pubs_prep, results = "asis"}
 data_prep <- c(
     "**Lavoie, C.-É.**, & Gagné, M. (en préparation). *To expand or to refine basic psychological needs theory? The case of incremental competence and novelty in self-determination theory.* Manuscrit en préparation pour soumission à *Motivation and Emotion*.",
-    "Afota, M.-C., Ollier-Malaterre, A., Russo, M., Chung, H., Jaga, A., **Lavoie, C.-É.**, Abendroth-Sohl, A.-K., Nordberg, T. H., Nilsen, W., Lupu, I., Mabaso, B. P., & Lévesque, J. (en préparation). *Digital detox and our relationship with digital technologies: A collaborative autoethnography of researchers and practitioners.* Manuscrit en préparation pour soumission à *New Technology, Work and Employment*.",
     "**Lavoie, C.-É.**, & Houlfort, N. (en préparation). *Coping strategies and emotion regulation in work–life conflict: A longitudinal study.* Manuscrit en préparation pour le *Journal of Occupational Health Psychology*.",
     "Adu, C., **Lavoie, C.-É.**, & Houlfort, N. (en préparation). *Balancing act in play: Development of role boundary management profiles among student-athletes.* Manuscrit en préparation pour soumission à *Psychology of Sport and Exercise*.",
     "Houlfort, N., & **Lavoie, C.-É.** (en préparation). *Basic psychological needs and well-being at work and at home in the context of work–family conflict episodes: A daily diary study.* Manuscrit en préparation pour soumission au *Journal of Organizational Behavior*.",
