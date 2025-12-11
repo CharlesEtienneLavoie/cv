@@ -105,13 +105,13 @@ nice_awards <- function(data, theme_color = headcolor, language = "EN") {
   n <- nrow(data)
   data$Name <- sapply(seq_len(n), function(i) {
     num <- (n + 1 - i)
-    paste0(num, ". ", data$Name[i])
+    paste0(num, ". ", data$Name[i], ", ", data$Details[i])
   })
 
   total_award <- data$Amount
 
-  first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))
-  last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
+  first_year <- min(as.numeric(unlist(stringr::str_extract_all(data$Date, "\\d{4}"))))
+  last_year <- max(as.numeric(unlist(stringr::str_extract_all(data$Date, "\\d{4}"))))
 
   data <- data %>%
     add_row(

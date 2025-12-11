@@ -38,6 +38,61 @@ data <- bind_rows(
     Declined = FALSE
   ),
   tibble(
+    Name = "Master's Research Scholarship",
+    Name_alt = "Bourse de recherche à la maîtrise",
+    URL = "",
+    Details = "Fonds de recherche du Québec – Société et culture (FRQSC)",
+    Date = "2019-2020",
+    Amount = 17500,
+    Activity = NA,
+    Program = "Master",
+    Declined = FALSE
+  ),
+  tibble(
+    Name = "Canada Graduate Scholarship – Master's (CGS-M)",
+    Name_alt = "Bourse d’études supérieures du Canada au niveau de la maîtrise (BESC M)",
+    URL = "",
+    Details = "Social Sciences and Humanities Research Council (SSHRC)",
+    Date = "2018-2019",
+    Amount = 17500,
+    Activity = NA,
+    Program = "Master",
+    Declined = FALSE
+  ),
+  tibble(
+    Name = "Entrance Scholarship in Psychology",
+    Name_alt = "Bourse d’entrée au baccalauréat en psychologie",
+    URL = "",
+    Details = "Université du Québec à Montréal",
+    Date = "2015/09",
+    Amount = 500,
+    Activity = NA,
+    Program = "Bachelor",
+    Declined = FALSE
+  ),
+  tibble(
+    Name = "Special Mention for Engagement, Sports Category",
+    Name_alt = "Mention spéciale pour l’implication, catégorie « sportif »",
+    URL = "",
+    Details = "Collège de Maisonneuve",
+    Date = "2015/05",
+    Amount = NA,
+    Activity = NA,
+    Program = "College",
+    Declined = FALSE
+  ),
+  tibble(
+    Name = "Engaged Student Award",
+    Name_alt = "Prix « étudiant engagé »",
+    URL = "",
+    Details = "Éducation 3e âge",
+    Date = "2015/03",
+    Amount = 300,
+    Activity = NA,
+    Program = "College",
+    Declined = FALSE
+  ),
+  tibble(
     Name = "Governor General's Academic Medal (Bronze)",
     Name_alt = "Médaille académique du Gouverneur général (Bronze)",
     URL = "",

@@ -105,7 +105,7 @@ headcolor <- "0a0a0a"
 
 
 
-```{r Awards parent, child=c('sections/awards.Rmd')}
+```{r Awards parent, child=c('fr/sections/awards.Rmd')}
 ```
 
 ```{r Teaching parent, child=c('fr/sections/teaching_cel.Rmd')}
