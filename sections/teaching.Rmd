@@ -19,7 +19,7 @@ nice_header(
 data <- rbind(
   tibble(
     what = "Lecturer - ORH3000: Applied Research Methods in Human Resources Management",
-    when = "2023/09 - ongoing",
+    when = "September 2023 - Present",
     with = "ESG UQAM, Department of Organization and Human Resources",
     where = "Montreal, Quebec, Canada",
     details = c(
@@ -28,22 +28,22 @@ data <- rbind(
     )
   ),
   tibble(
-    what = "Teaching Assistant - Sensibilisation aux pratiques de la psychologie",
-    when = "2020/09 - 2024/09",
+    what = "Teaching Assistant - Sensibilisation aux pratiques de la psychologie (PSM4300)",
+    when = "September 2020 - September 2024",
     with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
     where = "Montreal, QC, Canada",
     details = c("Teaching assistant for the undergraduate course Sensibilisation aux pratiques de la psychologie (introduction to psychological practice and professional issues).")
   ),
   tibble(
-    what = "Teaching Assistant - Psychologie du travail et des organisations (Work and Organizational Psychology)",
-    when = "2019/01 - 2019/05",
+    what = "Teaching Assistant - Psychologie du travail et des organisations (PSY4706)",
+    when = "January 2019 - May 2019",
     with = "Department of Psychology, Université du Québec à Montréal (UQAM)",
     where = "Montreal, QC, Canada",
     details = c("Teaching assistant for the course Psychologie du travail et des organisations (work and organizational psychology).")
   ),
   tibble(
     what = "Teaching Assistant - ADM 9944: Work, Life and Career: Contemporary Identities",
-    when = "2025/09 - 2025/12 (Fall 2025)",
+    when = "September 2025 - December 2025 (Fall 2025)",
     with = "Joint PhD in Administration program (UQAM-HEC Montréal-Concordia-McGill), ESG UQAM",
     where = "Montreal, QC, Canada",
     details = c("Teaching assistant for a doctoral-level seminar on work, life, and career identities.")

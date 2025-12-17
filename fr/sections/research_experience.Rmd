@@ -12,7 +12,7 @@ leadership_data <- rbind(
     tibble(
         what = "Président et cofondateur -- nQuerio",
         URL = "",
-        when = "2022/9 - présent",
+        when = "Septembre 2022 - présent",
         with = "nQuerio (plateforme logicielle pour la recherche)",
         where = "Montréal (Québec), Canada",
         details = c(
@@ -23,7 +23,7 @@ leadership_data <- rbind(
     tibble(
         what = "Coordonnateur de laboratoire de recherche",
         URL = "",
-        when = "2022 - 2024/12",
+        when = "2022 - Décembre 2024",
         with = "Vitrai, UQAM, Université du Québec à Montréal",
         where = "Montréal",
         details = c("Coordonnateur de laboratoire de recherche")
@@ -56,7 +56,7 @@ consulting_data <- rbind(
     tibble(
         what = "Consultant en méthodes d'enquête -- Faculté des sciences humaines",
         URL = "",
-        when = "février 2024",
+        when = "Février 2024",
         with = "Université du Québec à Montréal (UQAM)",
         where = "Montréal (Québec), Canada",
         details = c("Mandat de consultation de courte durée pour concevoir et implanter un questionnaire en ligne dans Qualtrics : structure du questionnaire, logiques de branchement, prétest et mise en place de la collecte de données pour une enquête à l'échelle de la faculté.")
@@ -77,14 +77,14 @@ consulting_data <- rbind(
         where = "Montréal",
         details = c(
             "Gestion et documentation de bases de données volumineuses et complexes pour des projets de recherche à l'ESG UQAM.",
-            "Réalisation d'analyses statistiques avancées (modèles multivariés, modèles d'équations structurelles, etc.) et interprétation des résultats pour les équipes de recherche.",
+            "Réalisation d'analyses statistiques avancées (statistiques bayésiennes, modèles multivariés, modèles d'équations structurelles, etc.) et interprétation des résultats pour les équipes de recherche.",
             "Explication des concepts statistiques et des résultats aux professeur·e·s et étudiant·e·s gradué·e·s, soutien à la rédaction des sections Méthode et Résultats."
         )
     ),
     tibble(
         what = "Consultant en analyse statistique et psychométrique",
         URL = "",
-        when = "2019/11 - 2019/12",
+        when = "Novembre 2019 - Décembre 2019",
         with = "Gauthier Murtada et Partenaires",
         where = "Montréal",
         details = c("Consultation avancée en statistiques et en psychométrie pour des projets de recherche professoraux (développement et validation d'échelles, analyses quantitatives complexes, etc.).")
@@ -101,7 +101,7 @@ ra_data <- rbind(
     tibble(
         what = "Assistant de recherche -- Laboratoire de recherche sur le comportement organisationnel",
         URL = "",
-        when = "2017/09 - 2018/09 ; 2021/03 - 2021/05",
+        when = "Septembre 2017 - Septembre 2018 ; Mars 2021 - Mai 2021",
         with = "Département de psychologie, Université du Québec à Montréal (UQAM)",
         where = "Montréal (Québec), Canada",
         details = c("Assistant de recherche au laboratoire de la professeure Nathalie Houlfort sur des projets en psychologie du travail et des organisations (préparation de questionnaires, collecte et gestion de données, analyses quantitatives préliminaires).")
@@ -109,7 +109,7 @@ ra_data <- rbind(
     tibble(
         what = "Assistant de recherche -- Laboratoire de recherche sur le comportement social",
         URL = "",
-        when = "2016/10 - 2017/09",
+        when = "Octobre 2016 - Septembre 2017",
         with = "Département de psychologie, Université du Québec à Montréal (UQAM)",
         where = "Montréal (Québec), Canada",
         details = c("Assistant de recherche au laboratoire du professeur Robert J. Vallerand sur des projets portant notamment sur la motivation et le comportement social.")
@@ -117,7 +117,7 @@ ra_data <- rbind(
     tibble(
         what = "Assistant de recherche -- Institut de recherche sur l'intégration professionnelle des immigrants (IRIPI)",
         URL = "",
-        when = "2015/02 - 2015/12",
+        when = "Février 2015 - Décembre 2015",
         with = "Collège de Maisonneuve",
         where = "Montréal (Québec), Canada",
         details = c("Assistant de recherche sous la supervision de la docteure Monica Schlobach sur des projets liés à l'intégration professionnelle des personnes immigrantes.")
@@ -133,7 +133,7 @@ detailed_entries(ra_data, with, when, what, where, details, .protect = FALSE)
 network_data <- rbind(
     tibble(
         what = "Membre -- Groupe de recherche INTWAF (Intersection of Work, Family and Technology)",
-        when = "février 2021 - présent",
+        when = "Février 2021 - présent",
         with = "ESG UQAM, Montréal (Québec), Canada"
     ),
     tibble(

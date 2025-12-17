@@ -4,10 +4,10 @@
 ```{r internships_fr, results = "asis"}
 data_internships_fr <- tibble(
     what = "**Stagiaire de recherche au doctorat – Future of Work Institute**",
-    when = "octobre 2025 – février 2026",
+    when = "Octobre 2025 – Février 2026",
     role = "Future of Work Institute, Curtin University",
     where = "Perth, Australie-Occidentale",
-    details = c("Stage de recherche au doctorat sous la supervision de la professeure Marylène Gagné au Future of Work Institute, sur des projets en psychologie du travail et des organisations.")
+    details = c("Stage de recherche au doctorat sous la supervision de la professeure Marylène Gagné. Le projet implique des raffinements conceptuels fondamentaux au sein de la théorie de l'autodétermination, en appliquant des méthodes quantitatives avancées telles que la modélisation par équations structurelles bayésienne à trois niveaux (points de mesure nichés dans les domaines nichés dans les personnes).")
 )
 
 detailed_entries(data_internships_fr, role, when, what, where, details, .protect = FALSE)

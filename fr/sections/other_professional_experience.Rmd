@@ -6,7 +6,7 @@ prof_data <- rbind(
     tibble(
         what = "Administrateur de tests",
         URL = "",
-        when = "2020/09 - présent",
+        when = "Septembre 2020 - présent",
         with = "Société de transport de Montréal (STM), division Dotation et planification de la main-d'œuvre",
         where = "Montréal, QC, Canada",
         details = c("Administration de tests standardisés dans les processus de sélection de personnel à la STM, en assurant le respect des procédures et en soutenant la dotation et la planification de la main-d'œuvre.")
@@ -14,7 +14,7 @@ prof_data <- rbind(
     tibble(
         what = "Adjoint administratif (intérim) -- Comité d'éthique pour les projets étudiants (CERPE)",
         URL = "",
-        when = "septembre - octobre 2024",
+        when = "Septembre 2024 - Octobre 2024",
         with = "Faculté des sciences humaines, Université du Québec à Montréal (UQAM)",
         where = "Montréal (Québec), Canada",
         details = c(

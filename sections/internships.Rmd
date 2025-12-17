@@ -7,7 +7,7 @@ data_internships <- tibble(
     when = "October 2025 – February 2026",
     role = "Future of Work Institute, Curtin University",
     where = "Perth, Western Australia",
-    details = c("Doctoral research internship under the supervision of Professor Marylène Gagné, focusing on work and organizational psychology research at the Future of Work Institute.")
+    details = c("Doctoral research internship under the supervision of Professor Marylène Gagné. The project involves fundamental conceptual refinements within self-determination theory, applying advanced quantitative methods such as three-level Bayesian structural equation modeling (timepoints nested within domains nested within persons).")
 )
 
 detailed_entries(data_internships, role, when, what, where, details)

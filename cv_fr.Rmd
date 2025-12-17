@@ -91,7 +91,11 @@ headcolor <- "0a0a0a"
 # See all instructions and tips here: https://github.com/rempsyc/cv
 ```
 
-```{r Education parent, child=c('sections/education.Rmd')}
+
+Mes recherches intègrent la psychologie du travail, la théorie de l'autodétermination et les méthodes quantitatives avancées pour examiner la motivation, la dynamique travail-famille et la régulation émotionnelle. Je suis fasciné par la façon dont des devis et des analyses soigneusement choisis peuvent approfondir notre compréhension de processus motivationnels complexes, notamment en raffinant les construits et en examinant comment ils se déploient dans le temps et selon les contextes à l'aide de la psychométrie et d'analyses multiniveaux. Engagé envers la science ouverte, je développe des infrastructures comme nQuerio et des outils R pour améliorer la reproductibilité. En enseignement, j'amène les étudiants à concevoir des études rigoureuses et significatives (ce CV est généré dans R).
+
+```{r Education parent, child=c('fr/sections/education.Rmd')}
+
 ```
 
 ```{r Internships parent, child=c('fr/sections/internships.Rmd')}

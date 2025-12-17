@@ -4,28 +4,28 @@
 data <- rbind(
   tibble(
     what = "Psychology Doctorate, research profile (PhD)",
-    when = "2018/09 - ongoing",
+    when = "September 2018 - Present",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c("Thesis: The role of coping strategies and emotional regulation in resolving work-family conflict episodes", "Advisor: Professor Nathalie Houlfort")
+    details = c("Thesis: The role of coping strategies and emotional regulation in resolving work-family conflict episodes", "Advisor: Professor Nathalie Houlfort", "(Note: Profile change from Clinical PsyD to Research PhD)")
   ),
   tibble(
     what = "Psychology Doctorate, clinical profile (PsyD)",
-    when = "2018/09 - 2024/09",
+    when = "September 2018 - September 2024",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = "Schooling completed"
+    details = c("Schooling completed", "(Note: All courses necessary for OPQ eligibility completed prior to transfer)")
   ),
   tibble(
     what = "Bachelor's degree in psychology (B.Sc.)",
-    when = "2015/09 - 2018/09",
+    when = "September 2015 - September 2018",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
     details = "Honor thesis (supervised by Professor Robert J. Vallerand)"
   ),
   tibble(
     what = "Diploma of Collegial Studies (Social Sciences)",
-    when = "2013/09 - 2015/09",
+    when = "September 2013 - September 2015",
     with = "Collège de Maisonneuve",
     where = "Montréal, Québec, Canada",
     details = "Special mention for involvement"

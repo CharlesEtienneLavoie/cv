@@ -1,0 +1,36 @@
+# Éducation
+
+```{r Education_data}
+data <- rbind(
+    tibble(
+        what = "Doctorat en psychologie, profil recherche (PhD)",
+        when = "Septembre 2018 - présent",
+        with = "Université du Québec à Montréal",
+        where = "Montréal, Québec, Canada",
+        details = c("Thèse : Le rôle des stratégies de coping et de la régulation émotionnelle dans la résolution des épisodes de conflit travail-famille", "Directrice : Professeure Nathalie Houlfort", "(Note : Changement de profil du doctorat clinique au doctorat recherche)")
+    ),
+    tibble(
+        what = "Doctorat en psychologie, profil clinique (D.Psy)",
+        when = "Septembre 2018 - Septembre 2024",
+        with = "Université du Québec à Montréal",
+        where = "Montréal, Québec, Canada",
+        details = c("Scolarité complétée", "(Note : Scolarité requise pour l'Ordre des psychologues du Québec complétée avant le transfert au PhD)")
+    ),
+    tibble(
+        what = "Baccalauréat en psychologie (B.Sc.)",
+        when = "Septembre 2015 - Septembre 2018",
+        with = "Université du Québec à Montréal",
+        where = "Montréal, Québec, Canada",
+        details = "Thèse d'honneur (supervisée par le professeur Robert J. Vallerand)"
+    ),
+    tibble(
+        what = "Diplôme d'études collégiales (Sciences humaines)",
+        when = "Septembre 2013 - Septembre 2015",
+        with = "Collège de Maisonneuve",
+        where = "Montréal, Québec, Canada",
+        details = "Mention spéciale pour l'engagement étudiant"
+    )
+)
+
+nice_entries(data, language = language)
+```

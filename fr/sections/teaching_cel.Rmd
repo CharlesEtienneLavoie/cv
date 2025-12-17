@@ -19,7 +19,7 @@ nice_header(
 data <- rbind(
     tibble(
         what = "Chargé de cours - ORH3000 : Méthodes de recherche appliquée en gestion des ressources humaines",
-        when = "2023/09 - présent",
+        when = "Septembre 2023 - présent",
         with = "ESG UQAM, Département d'organisation et ressources humaines",
         where = "Montréal, Québec, Canada",
         details = c(
@@ -28,22 +28,22 @@ data <- rbind(
         )
     ),
     tibble(
-        what = "Auxiliaire d’enseignement – Sensibilisation aux pratiques de la psychologie",
-        when = "2020/09 - 2024/09",
+        what = "Auxiliaire d’enseignement – Sensibilisation aux pratiques de la psychologie (PSM4300)",
+        when = "Septembre 2020 - Septembre 2024",
         with = "Département de psychologie, Université du Québec à Montréal (UQAM)",
         where = "Montréal, QC, Canada",
         details = c("Auxiliaire d’enseignement pour le cours de premier cycle « Sensibilisation aux pratiques de la psychologie ».")
     ),
     tibble(
-        what = "Auxiliaire d’enseignement – Psychologie du travail et des organisations",
-        when = "2019/01 - 2019/05",
+        what = "Auxiliaire d’enseignement – Psychologie du travail et des organisations (PSY4706)",
+        when = "Janvier 2019 - Mai 2019",
         with = "Département de psychologie, Université du Québec à Montréal (UQAM)",
         where = "Montréal, QC, Canada",
         details = c("Auxiliaire d’enseignement pour le cours « Psychologie du travail et des organisations ».")
     ),
     tibble(
         what = "Auxiliaire d’enseignement – ADM 9944 : Work, Life and Career: Contemporary Identities",
-        when = "2025/09 - 2025/12",
+        when = "Septembre 2025 - Décembre 2025",
         with = "Programme conjoint de doctorat en administration (UQAM–HEC Montréal–Concordia–McGill), ESG UQAM",
         where = "Montréal, QC, Canada",
         details = c("Auxiliaire d’enseignement dans un séminaire de troisième cycle sur les identités liées au travail, à la vie et à la carrière.")

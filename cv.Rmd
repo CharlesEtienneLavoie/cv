@@ -75,7 +75,7 @@ headcolor <- "0a0a0a"
 # See all instructions and tips here: https://github.com/rempsyc/cv
 ```
 
-*This CV is generated from a reproducible R Markdown source using the {vitae} package. Source: https://github.com/CharlesEtienneLavoie/cv*
+My research integrates work psychology, self-determination theory, and advanced quantitative methods to examine motivation, work–family dynamics, and emotion regulation. I am fascinated by how carefully chosen designs and analyses can deepen our understanding of complex motivational processes such as by refining constructs and examining how they unfold across time and contexts using psychometrics and multilevel analyses. Committed to open science, I develop infrastructure like nQuerio and R tools to enhance reproducibility. In teaching, I empower students to design rigorous, meaningful studies (this CV is generated in R).
 
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
@@ -139,3 +139,5 @@ headcolor <- "0a0a0a"
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}
 ```
+
+*This CV is generated from a reproducible R Markdown source using the {vitae} package. Source: https://github.com/CharlesEtienneLavoie/cv*
