@@ -29,6 +29,7 @@ number_pubs(
 
 ```{r posters_data, results = "asis"}
 data_posters <- c(
+    "**Lavoie, C.-É.**, & Gagné, M. (2026, juin–juillet). *To expand or to refine basic psychological needs theory? Incremental competence versus novelty in a strong comparative test* [Présentation par affiche soumise]. 9th International Conference on Self-Determination Theory (SDT 2026), Genève, Suisse.",
     "Vallières, A., **Lavoie, C.-É.**, Waage, S., Bjorvatn, B., & Lefrançois, M. (septembre 2025). *Validation of the Bergen Shift Work Sleep Questionnaire in workers under split shift or early morning shift.* Présentation par affiche au congrès *World Sleep 2025*, Singapour.",
     "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *La satisfaction des besoins psychologiques comme médiateur dans la relation entre la passion pour le travail et l'enrichissement travail-vie*. Présentation par affiche à la 10e Conférence internationale SELF.",
     "Malchelosse, K., Lavoie, C. É., Masson, R., & Houlfort, N. (2022). *La relation entre la passion pour le travail et les sous-dimensions de l'enrichissement travail-vie*. Présentation par affiche au congrès 2022 de la Société Québécoise pour la Recherche en Psychologie (SQRP).",

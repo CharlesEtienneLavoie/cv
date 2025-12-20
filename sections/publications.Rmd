@@ -38,6 +38,7 @@ number_pubs(
 
 ```{r pubs_prep, results = "asis"}
 data_prep <- c(
+  "**Lavoie, C.-É.**, & Parker, S. K. (in preparation). SMART work design meets self-determination theory: Motivational mechanisms from Ruth Kanfer’s legacy to AI-enabled work (Invited book chapter). In M. E. Beier & P. L. Ackerman (Eds.)",
   "**Lavoie, C.-É.**, & Gagné, M. (in preparation). *To expand or to refine basic psychological needs theory? The case of incremental competence and novelty in self-determination theory.* Manuscript in preparation for submission to *Motivation and Emotion*.",
   "**Lavoie, C.-É.**, & Houlfort, N. (in preparation). *Coping strategies and emotion regulation in work–life conflict: A longitudinal study.* Manuscript in preparation for the *Journal of Occupational Health Psychology*.",
   "Adu, C., **Lavoie, C.-É.**, & Houlfort, N. (in preparation). *Balancing act in play: Development of role boundary management profiles among student-athletes.* Manuscript in preparation for submission to *Psychology of Sport and Exercise*.",
