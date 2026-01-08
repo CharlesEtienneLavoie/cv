@@ -3,7 +3,7 @@
 ```{r Education_data}
 data <- rbind(
   tibble(
-    what = "Psychology Doctorate, research profile (PhD)",
+    what = "Psychology Doctorate, research profile (PhD) \\newline (Planned deposit: April 2026; Expected defense: June 2026)",
     when = "September 2018 - Present",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",

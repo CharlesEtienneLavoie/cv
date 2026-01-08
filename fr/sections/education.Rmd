@@ -3,7 +3,7 @@
 ```{r Education_data}
 data <- rbind(
     tibble(
-        what = "Doctorat en psychologie, profil recherche (PhD)",
+        what = "Doctorat en psychologie, profil recherche (PhD) \\newline (Dépôt prévu : avril 2026; Soutenance prévue : juin 2026)",
         when = "Septembre 2018 - présent",
         with = "Université du Québec à Montréal",
         where = "Montréal, Québec, Canada",
