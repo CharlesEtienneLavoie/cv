@@ -1,7 +1,7 @@
 ---
 name: Charles-Étienne
 surname: Lavoie
-position: "Doctorant en psychologie / Président, nQuerio"
+position: "Doctorant en psychologie du travail / Président, nQuerio"
 qualifications: "PhD (Cand.)"
 address: "2281, Pie IX, Montréal (Québec) H1V 2E6"
 phone: 438-393-2410
