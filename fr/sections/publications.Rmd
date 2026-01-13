@@ -4,11 +4,11 @@
 
 ```{r pubs_data, results = "asis"}
 data <- c(
+    "**Lavoie, C.-É.**, & Houlfort, N. (accepté). The interplay of coping with role conflict and emotion regulation: Creation and validation of the Coping with Role Conflict Scale. *Frontiers in Organizational Psychology*.",
+    "Houlfort, N., Cécire, P., & **Lavoie, C.-É.** (in press). Motivation au travail en visuels. In É. Vayre & V. Dolce (Eds.), *Psychologie du travail et des organisations en visuels*. De Boeck Supérieur.",
     "Malchelosse, K., Houlfort, N., **Lavoie, C.-É.**, & Masson, R. (2023). The role of resilience and psychological needs satisfaction in the relationship between passion for work and work-life enrichment. *Current Psychology*, 1-17.",
     "Pellerin, S., Ollier-Malaterre, A., Kossek, E.E., Afota, M.C., Cousineau, L., **Lavoie, C.-É.**, Beham, B., Morandin, G., Russo, M., Jaga, A., Ma, J., Léon, E., Lu, C-q., & Parent-Rocheleau, X. (2023). The Right to Disconnect: A Policy Innovation First Step. *Stanford Social Innovation Review*.",
-    "**Lavoie, C.-É.**, Vallerand, R. J., & Verner-Filion, J. (2021). Passion and emotions: The mediating role of cognitive appraisals. *Psychology of Sport and Exercise*, 54, 101907.",
-    "**Lavoie, C.-É.**, & Houlfort, N. (accepté). The interplay of coping with role conflict and emotion regulation: Creation and validation of the Coping with Role Conflict Scale. *Frontiers in Organizational Psychology*.",
-    "Houlfort, N., Cécire, P., & **Lavoie, C.-É.** (in press). Motivation au travail en visuels. In É. Vayre & V. Dolce (Eds.), *Psychologie du travail et des organisations en visuels*. De Boeck Supérieur."
+    "**Lavoie, C.-É.**, Vallerand, R. J., & Verner-Filion, J. (2021). Passion and emotions: The mediating role of cognitive appraisals. *Psychology of Sport and Exercise*, 54, 101907."
 )
 
 number_pubs(
