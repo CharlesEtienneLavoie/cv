@@ -3,7 +3,7 @@
 
 ```{r internships_fr, results = "asis"}
 data_internships_fr <- tibble(
-    what = "**Stagiaire de recherche au doctorat – Future of Work Institute**",
+    what = "Stagiaire de recherche au doctorat – Future of Work Institute",
     when = "Octobre 2025 – Février 2026",
     role = "Future of Work Institute, Curtin University",
     where = "Perth, Australie-Occidentale",
