@@ -16,6 +16,7 @@ nice_header(
 
 ```{r invited_talks, results = "asis"}
 data <- c(
+    "**Lavoie, C.-É.** (18 février 2026). *AI in the research workflow.* Atelier invité de deux heures présenté au Centre for Transformative Work Design, Future of Work Institute, Curtin University, Perth, Australie.",
     "**Lavoie, C.-É.** (3 décembre 2025). *How people regulate their emotions and cope with work–family conflicts.* Conférence invitée présentée dans le cadre de la série de séminaires IPPE 2025, Institute for Positive Psychology and Education (IPPE), Australian Catholic University, Sydney, Australie.",
     "**Lavoie, C.-É.** (18 novembre 2025). *Emotion regulation, role conflict, and experiences of incremental competence and novelty.* Séminaire invité du Centre for Transformative Work Design, Future of Work Institute, Curtin University, Perth, Australie.",
     "**Lavoie, C.-É.** (4 juin 2025). *Automatisation des tableaux et figures pour les modèles d’équations structurelles (SEM) avec R (ggplot2 et nice_table).* Conférence invitée dans le cadre du cours PSY7109 (Été), Département de psychologie, Université du Québec à Montréal (UQAM), Montréal (Québec), Canada.",
