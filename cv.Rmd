@@ -7,7 +7,7 @@ qualifications: "PhD (Cand.)"
 address: "2281, Pie IX, Montréal (Québec) H1V 2E6"
 phone: 438-393-2410
 email: "celavoie96@gmail.com"
-date: "`r format(Sys.time(), '%B %Y')`"
+date: "March 5, 2026"
 headcolor: "333333"
 urlcolor: blue
 linkcolor: blue
@@ -139,5 +139,15 @@ My research integrates work psychology, self-determination theory, and advanced 
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}
 ```
+
+\vspace{2em}
+\begin{flushright}
+  Signed in Montreal, QC, on March 5, 2026 \\
+  \vspace{1em}
+  \includegraphics[width=5cm]{img/signature.png} \\
+  \vspace{0.5em}
+  Charles-Étienne Lavoie
+\end{flushright}
+\vspace{2em}
 
 *This CV is generated from a reproducible R Markdown source using the {vitae} package. Source: https://github.com/CharlesEtienneLavoie/cv*

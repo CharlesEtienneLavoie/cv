@@ -23,7 +23,7 @@ header-includes:
   - \renewcommand{\makecvfooter}[3]{\origmakecvfooter{#1}{#2}{\thepage/\ref{TotPages}}}
   - \makeatother
 lang: french
-date: "\\today"
+date: "5 mars 2026"
 papersize: letterpaper
 ---
 
@@ -157,6 +157,16 @@ Mes recherches intègrent la psychologie du travail, la théorie de l'autodéter
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}
 ```
+
+\vspace{2em}
+\begin{flushright}
+  Fait à Montréal, QC, le 5 mars 2026 \\
+  \vspace{1em}
+  \includegraphics[width=5cm]{img/signature.png} \\
+  \vspace{0.5em}
+  Charles-Étienne Lavoie
+\end{flushright}
+\vspace{2em}
 
 *Ce CV est généré à partir d’une source R Markdown reproductible utilisant le package {vitae}. Code source : https://github.com/CharlesEtienneLavoie/cv*
 
